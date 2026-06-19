@@ -7,8 +7,9 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About me",
+    "about": "About",
     "project": "Project",
+    "collaboration": "Collaboration",
     "students": "Students",
     "parents": "Parents",
     "teachers": "Teachers",
@@ -130,6 +131,16 @@
         "objective": "Evaluate the impact of the information presented in the portfolio by collecting at least 10 testimonials or pieces of feedback from visitors (students or colleagues) by the end of the academic year.",
         "meta": "Timeframe: by the end of the academic year."
       }
+    ],
+    "realTitle": "From idea to real impact",
+    "realText": "This portfolio became the foundation of the international educational project “Unity through Diversity — Saying NO to bullying through tradition”, a partnership between the Republic of Moldova and the Czech Republic.",
+    "realCta": "See the collaboration with the Czech Republic",
+    "outcomesTitle": "Project results",
+    "outcomes": [
+      { "value": "72", "label": "students from Moldova & Czechia in the workshops" },
+      { "value": "252", "label": "primary students in the prevention campaign" },
+      { "value": "7", "label": "teachers involved (3 MD + 4 CZ)" },
+      { "value": "73", "label": "parents trained" }
     ]
   },
   "students": {
@@ -148,6 +159,9 @@
     "game2Title": "Bullying or friendship?",
     "game2Desc": "🧲 If you enjoyed the experience above, let's keep practising through play… 🪂",
     "instructionsTitle": "Instructions",
+    "gamesTitle": "Interactive games",
+    "openGame": "Open the game",
+    "gameNote": "If the game doesn't load below, use the button to open it in a new tab.",
     "game1Instructions": [
       "Read the question",
       "Think about your answer",
@@ -176,6 +190,23 @@
     "welcome": "Welcome! Read the letter of intent.",
     "quote": "A child who feels loved and respected at home will rarely need to hurt someone at school — and will always have the courage to ask for help if they are hurt.",
     "letterAlt": "An open letter to parents, signed “With love, Buga Victoria”",
+    "letterTitle": "Letter of intent",
+    "letter": {
+      "greeting": "Hey, welcome to our super-parents club! 🤝",
+      "intro": "Dear parents,",
+      "p1": "We all know that school should be a magical realm where our children discover their superpowers and make friends for life. But sometimes this realm is invaded by creatures called “bullying.”",
+      "p2": "Whether you're here because you're fighting a dragon alongside your child, or you want to be an informed and prepared knight, you've come to exactly the right place! This page was created to turn helplessness into action and silence into heroic dialogue.",
+      "bulletsTitle": "What you'll find here:",
+      "bullets": [
+        "Magical resources & strategies: how to spot the subtle signs of bullying (physical, verbal or online).",
+        "A communication guide: how to talk to your child without making them feel interrogated by a secret agent.",
+        "Concrete steps: how to form an alliance with the school and handle conflicts like a Jedi master.",
+        "Support: a community that knows there are no “bad children” — only behaviours that need a little magic and a few boundaries."
+      ],
+      "p3": "Remember: bullying is not a “rite of passage”, nor something children must “endure” to become stronger. It is a matter of emotional safety that concerns us all.",
+      "p4": "Let's explore the solutions together, ask questions and build a safer realm for our children's future. You are not alone in this adventure!",
+      "signature": "With love, Buga Victoria."
+    },
     "resourcesTitle": "Guides & resources to download",
     "closing": "No one is guaranteed that their own child won't end up on the negative side — don't despair, you can always help them.",
     "docs": {
@@ -219,6 +250,14 @@
       "doc_self_confidence": {
         "title": "Bullying vs Self-confidence",
         "desc": "A presentation on building self-confidence as an antidote to bullying."
+      },
+      "doc_unity": {
+        "title": "Unity through Diversity — final anti-bullying project",
+        "desc": "The full presentation of the Moldova × Czech Republic partnership: rationale, SMART objectives, activities and measurable results."
+      },
+      "doc_friendship": {
+        "title": "The Thread of Friendship — bilingual Mărțișor",
+        "desc": "A bilingual (RO–CZ) anti-bullying activity built around the Mărțișor tradition and the power of friendship."
       }
     }
   },
@@ -226,6 +265,70 @@
     "title": "Project evaluation",
     "subtitle": "Your feedback matters",
     "intro": "This project grows with your voice. Share a testimonial, an impression or a suggestion — your feedback helps measure the project's impact and improve the resources for students, parents and teachers.",
+    "quizTitle": "Test your knowledge",
+    "quizIntro": "A short quiz on what the project teaches about bullying. Pick one answer per question, then check your results.",
+    "quizSubmit": "Finish the test",
+    "quizRetry": "Try again",
+    "quizScore": "You answered {{correct}} of {{total}} questions correctly.",
+    "quizPerfect": "Perfect score — you're a true ally against bullying! 🎉",
+    "quizGood": "Well done! You know the essentials. 👏",
+    "quizKeep": "Good start — explore the pages and try again! 💪",
+    "quizExplanation": "Why",
+    "quizAnswerAll": "Answer all questions to see your results.",
+    "quiz": [
+      {
+        "q": "Which stress hormone is experienced by both the victim and the aggressor?",
+        "options": ["Adrenaline", "Cortisol", "Dopamine"],
+        "answer": 1,
+        "explanation": "Cortisol is the main stress hormone, felt by both sides involved."
+      },
+      {
+        "q": "What is the project's central quote?",
+        "options": [
+          "“A life is worth nothing — nothing is worth as much as a life.”",
+          "“Silence is golden.”",
+          "“Every man for himself.”"
+        ],
+        "answer": 0,
+        "explanation": "It underlines the intrinsic value of every child."
+      },
+      {
+        "q": "What does “Save” mean in the 3 “S” rule for cyberbullying?",
+        "options": [
+          "Saving the evidence with screenshots",
+          "Saving the aggressor from punishment",
+          "Shutting down the computer immediately"
+        ],
+        "answer": 0,
+        "explanation": "Save the evidence (screenshots) before reporting a case of cyberbullying."
+      },
+      {
+        "q": "What is the role of an “Upstander”?",
+        "options": [
+          "Someone who watches without intervening",
+          "Someone who takes a stand and becomes a defender",
+          "Someone who ignores the differences between pupils"
+        ],
+        "answer": 1,
+        "explanation": "An upstander takes action and defends the vulnerable, unlike a passive bystander."
+      },
+      {
+        "q": "What are the main forms of bullying?",
+        "options": [
+          "Only physical aggression",
+          "Physical, verbal, social and cyberbullying",
+          "Only cyberbullying"
+        ],
+        "answer": 1,
+        "explanation": "Bullying can be physical, verbal, social (relational) and online (cyberbullying)."
+      },
+      {
+        "q": "Which country was the “Unity through Diversity” project partnered with?",
+        "options": ["The Czech Republic", "France", "Italy"],
+        "answer": 0,
+        "explanation": "The project is a partnership between the Republic of Moldova and the Czech Republic."
+      }
+    ],
     "formTitle": "Share your feedback",
     "name": "Your name",
     "namePlaceholder": "How should I address you?",
@@ -241,6 +344,84 @@
     "send": "Send feedback",
     "note": "The button opens your email app with the message ready to send to Buga Victoria.",
     "directContact": "Prefer to write directly?"
+  },
+  "czech": {
+    "eyebrow": "International partnership",
+    "title": "Unity through Diversity",
+    "subtitle": "Saying NO to bullying through tradition",
+    "partnership": "Republic of Moldova × Czech Republic",
+    "intro": "An international educational project that prevents and combats bullying in primary school by turning cultural diversity into a tool for connection — developing children's emotional intelligence and spirit of tolerance through national traditions and folklore.",
+    "partnersTitle": "Partner schools",
+    "partners": [
+      { "country": "🇲🇩 Republic of Moldova", "school": "“Antonin Ursu” Educational Complex" },
+      { "country": "🇨🇿 Czech Republic", "school": "Základní škola Pelhřimov, Osvobození" }
+    ],
+    "goalTitle": "Project goal",
+    "goal": "To build and apply a model for preventing and combating bullying in schools by valuing cultural diversity as a tool for cohesion, within an international educational partnership (Moldova – Czech Republic), through the celebration of national traditions and customs.",
+    "argumentTitle": "Why this project",
+    "argument": "Bullying is no longer an isolated incident but a systemic, global problem. Children increasingly struggle to accept diversity and the unknown, and up to 50% of pupils moving from primary to secondary school experience bullying. It is far more effective to prevent and educate from the start than to correct deeply rooted patterns later. We chose a partner school in the Czech Republic for its vast experience in school inclusion and pupil well-being — letting us compare prevention methods and adopt good European practices.",
+    "teamTitle": "Project team",
+    "team": [
+      { "name": "Buga Victoria", "role": "Psychologist · project coordinator" },
+      { "name": "Markéta Pavlíková · Corniță Tatiana", "role": "English teachers · partner coordinators" },
+      { "name": "Tereza Hubatová", "role": "Primary-school psychologist (Czech Republic)" }
+    ],
+    "stagesTitle": "Activity stages",
+    "stages": [
+      {
+        "period": "September – December 2025",
+        "title": "“My heritage – your heritage”",
+        "desc": "An anti-bullying team of 4th-grade pupils was trained and ran awareness sessions in 10 classes and 2 kindergarten groups. Children met online, shared their most beautiful traditions, exchanged letters and postcards, and wrote an anti-bullying manifesto.",
+        "motto": "Do not do to others what you would not want done to you."
+      },
+      {
+        "period": "December 2025 – January 2026",
+        "title": "“Click on Kindness”",
+        "desc": "A digital winter-customs gathering: pupils learned carols and folk dances symbolising unity, composed bilingual anti-bullying proverbs and created a bilingual e-book of kind phrases.",
+        "motto": "Kind words bring big rewards."
+      },
+      {
+        "period": "March – April 2026",
+        "title": "“The Thread of Friendship – bilingual Mărțișor”",
+        "desc": "Starting from the legend of the Mărțișor, children created bilingual mărțișoare with kind words and held a joint exhibition. The Czech pupils wore them in March as a sign of friendship — proof that true friendship knows no borders.",
+        "motto": "In unity there is strength."
+      },
+      {
+        "period": "April 2026",
+        "title": "“Different but United”",
+        "desc": "Through Easter traditions of forgiveness, generosity and peace, children learned that diversity is not a reason for marginalisation but a richness that unites us.",
+        "motto": "Kind words bring big rewards."
+      }
+    ],
+    "resultsTitle": "Results & impact",
+    "quantTitle": "In numbers",
+    "quant": [
+      "72 pupils from Moldova and Czechia took active part in all the workshops",
+      "252 primary pupils reached by the anti-bullying prevention campaign",
+      "7 teachers involved (3 from Moldova, 4 from Czechia)",
+      "73 parents trained in bullying-prevention methods",
+      "8 joint online activities with the Czech partner class",
+      "1 digital portfolio and 1 international partnership agreement"
+    ],
+    "qualTitle": "Qualitative change",
+    "qual": [
+      "Fewer exclusion and labelling behaviours",
+      "Greater resilience in the face of aggression",
+      "Assertive communication and clearly voiced boundaries",
+      "Therapy through tradition and collaborative activities",
+      "Teamwork that dismantled the power hierarchies typical of bullying"
+    ],
+    "vocabTitle": "Words of friendship (Romanian – Czech)",
+    "vocab": [
+      { "ro": "BUNĂTATE", "cz": "LASKAVOST", "pron": "Las-ka-vost" },
+      { "ro": "PACE", "cz": "MÍR", "pron": "Mir" },
+      { "ro": "RESPECT", "cz": "ÚCTA", "pron": "U-tsta" },
+      { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smiev" },
+      { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-mots" }
+    ],
+    "docsTitle": "Project presentations",
+    "closing": "In this project we choose to be heroes of kindness, not spectators of cruelty. If you see bullying — don't stay silent, be a true friend! Together we build a school of friendship.",
+    "thanks": "Mulțumim · Děkujeme · Thank you"
   },
   "footer": {
     "blurb": "An educational anti-bullying project offering science-based tools for students, parents and teachers.",

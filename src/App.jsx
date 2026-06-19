@@ -4,6 +4,7 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Project from './pages/Project.jsx'
+import CzechCollaboration from './pages/CzechCollaboration.jsx'
 import ForStudents from './pages/ForStudents.jsx'
 import ForParents from './pages/ForParents.jsx'
 import ForTeachers from './pages/ForTeachers.jsx'
@@ -19,6 +20,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="project" element={<Project />} />
+          <Route path="collaboration" element={<CzechCollaboration />} />
           <Route path="students" element={<ForStudents />} />
           <Route path="parents" element={<ForParents />} />
           <Route path="teachers" element={<ForTeachers />} />

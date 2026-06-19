@@ -1,18 +1,46 @@
 import { useTranslation } from 'react-i18next'
-import { Video, Gamepad2, Sparkles, Heart } from 'lucide-react'
+import { Video, Gamepad2, Sparkles, Heart, ExternalLink } from 'lucide-react'
 import PageHero from '../components/PageHero.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import { img } from '../data/assets'
+import { studentVideos, studentGames, ytEmbed } from '../data/media'
 
-function GameCard({ icon: Icon, title, desc, instructions, instructionsTitle, image, imageAlt }) {
+function VideoCard({ id, title, author }) {
   return (
-    <article className="card grid gap-0 overflow-hidden md:grid-cols-2">
-      <div className="order-2 flex flex-col gap-4 p-7 md:order-1 sm:p-9">
-        <span className="inline-flex w-fit items-center gap-2 rounded-full bg-sun-400/20 px-3 py-1 text-sm font-semibold text-sun-600">
-          <Icon className="h-4 w-4" aria-hidden="true" />
-          {title}
-        </span>
-        <p className="leading-relaxed text-slate-600">{desc}</p>
+    <figure className="overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-black/5">
+      <div className="aspect-video">
+        <iframe
+          src={ytEmbed(id)}
+          title={title}
+          className="h-full w-full"
+          loading="lazy"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </div>
+      <figcaption className="p-4">
+        <p className="font-semibold leading-snug text-brand-900">{title}</p>
+        <p className="text-sm text-slate-500">{author}</p>
+      </figcaption>
+    </figure>
+  )
+}
+
+function GameCard({ index, title, desc, instructions, instructionsTitle, url, openLabel, note }) {
+  return (
+    <article className="card overflow-hidden">
+      <div className="grid gap-6 p-7 sm:p-9 md:grid-cols-2">
+        <div className="flex flex-col gap-4">
+          <span className="inline-flex w-fit items-center gap-2 rounded-full bg-sun-400/20 px-3 py-1 text-sm font-semibold text-sun-600">
+            <Gamepad2 className="h-4 w-4" aria-hidden="true" />
+            {title}
+          </span>
+          <p className="leading-relaxed text-slate-600">{desc}</p>
+          <a href={url} target="_blank" rel="noreferrer" className="btn-primary w-fit">
+            <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            {openLabel}
+          </a>
+        </div>
         <div>
           <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-brand-600">
             {instructionsTitle}
@@ -29,17 +57,37 @@ function GameCard({ icon: Icon, title, desc, instructions, instructionsTitle, im
           </ol>
         </div>
       </div>
-      <div className="order-1 md:order-2">
-        <img src={image} alt={imageAlt} className="h-full max-h-72 w-full object-cover md:max-h-none" loading="lazy" />
+      <div className="border-t border-brand-100 bg-slate-50">
+        <iframe
+          src={url}
+          title={title}
+          className="h-[460px] w-full sm:h-[520px]"
+          loading="lazy"
+          allow="fullscreen; autoplay"
+        />
       </div>
+      <p className="px-7 py-3 text-xs text-slate-500">{note}</p>
     </article>
   )
 }
 
 export default function ForStudents() {
   const { t } = useTranslation()
-  const g1 = t('students.game1Instructions', { returnObjects: true })
-  const g2 = t('students.game2Instructions', { returnObjects: true })
+
+  const games = [
+    {
+      ...studentGames[0],
+      title: t('students.game1Title'),
+      desc: t('students.game1Desc'),
+      instructions: t('students.game1Instructions', { returnObjects: true }),
+    },
+    {
+      ...studentGames[1],
+      title: t('students.game2Title'),
+      desc: t('students.game2Desc'),
+      instructions: t('students.game2Instructions', { returnObjects: true }),
+    },
+  ]
 
   const gallery = [
     { src: img.studentsHero, key: 'hero' },
@@ -85,35 +133,36 @@ export default function ForStudents() {
             </h2>
             <p className="text-lg leading-relaxed text-slate-600">{t('students.videosDesc')}</p>
           </div>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+            {studentVideos.map((v) => (
+              <VideoCard key={v.id} {...v} />
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* Games */}
+      {/* Games (after the video grid) */}
       <section className="container-page space-y-8 py-16 sm:py-20">
         <SectionHeading
-          eyebrow={<span className="inline-flex items-center gap-1.5"><Gamepad2 className="h-4 w-4" />{t('students.game1Title')}</span>}
-          title={t('students.game1Title')}
+          eyebrow={<span className="inline-flex items-center gap-1.5"><Gamepad2 className="h-4 w-4" />{t('students.gamesTitle')}</span>}
+          title={t('students.gamesTitle')}
           center
           className="mb-4"
         />
-        <GameCard
-          icon={Gamepad2}
-          title={t('students.game1Title')}
-          desc={t('students.game1Desc')}
-          instructions={g1}
-          instructionsTitle={t('students.instructionsTitle')}
-          image={img.studentsIllustration}
-          imageAlt={t('students.gallery.illustration')}
-        />
-        <GameCard
-          icon={Gamepad2}
-          title={t('students.game2Title')}
-          desc={t('students.game2Desc')}
-          instructions={g2}
-          instructionsTitle={t('students.instructionsTitle')}
-          image={img.studentsStop}
-          imageAlt={t('students.gallery.stop')}
-        />
+        {games.map((g, i) => (
+          <GameCard
+            key={g.key}
+            index={i}
+            title={g.title}
+            desc={g.desc}
+            instructions={g.instructions}
+            instructionsTitle={t('students.instructionsTitle')}
+            url={g.url}
+            openLabel={t('students.openGame')}
+            note={t('students.gameNote')}
+          />
+        ))}
       </section>
 
       {/* Gallery */}

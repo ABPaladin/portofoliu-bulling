@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Target, Clock } from 'lucide-react'
+import { Target, Clock, Handshake, ArrowRight } from 'lucide-react'
 import PageHero from '../components/PageHero.jsx'
 import MissionPillars from '../components/MissionPillars.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
@@ -8,6 +9,7 @@ import { img } from '../data/assets'
 export default function Project() {
   const { t } = useTranslation()
   const objectives = t('project.objectives', { returnObjects: true })
+  const outcomes = t('project.outcomes', { returnObjects: true })
 
   return (
     <>
@@ -77,6 +79,38 @@ export default function Project() {
             </li>
           ))}
         </ol>
+      </section>
+
+      {/* Real impact — link to the Moldova × Czech collaboration */}
+      <section className="container-page pb-16">
+        <div className="overflow-hidden rounded-4xl bg-gradient-to-br from-brand-700 to-brand-900 text-white">
+          <div className="grid gap-8 p-8 sm:p-12 lg:grid-cols-2 lg:items-center">
+            <div>
+              <p className="inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-1.5 text-sm font-medium backdrop-blur">
+                <Handshake className="h-4 w-4" aria-hidden="true" />
+                {t('czech.partnership')}
+              </p>
+              <h2 className="mt-4 font-display text-3xl font-bold">{t('project.realTitle')}</h2>
+              <p className="mt-3 leading-relaxed text-brand-50/90">{t('project.realText')}</p>
+              <Link
+                to="/collaboration"
+                className="btn mt-6 bg-white text-brand-700 hover:-translate-y-0.5 hover:bg-brand-50"
+              >
+                {t('project.realCta')}
+                <ArrowRight className="h-4 w-4" aria-hidden="true" />
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4">
+              {outcomes.map((o, i) => (
+                <div key={i} className="rounded-3xl bg-white/10 p-5 text-center backdrop-blur">
+                  <p className="font-display text-3xl font-extrabold sm:text-4xl">{o.value}</p>
+                  <p className="mt-1 text-sm text-brand-100">{o.label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )

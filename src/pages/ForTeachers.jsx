@@ -4,7 +4,7 @@ import PageHero from '../components/PageHero.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import DocumentCard from '../components/DocumentCard.jsx'
 import { img } from '../data/assets'
-import { teacherDocs } from '../data/resources'
+import { teacherDocs, projectDocs } from '../data/resources'
 
 export default function ForTeachers() {
   const { t } = useTranslation()
@@ -36,7 +36,7 @@ export default function ForTeachers() {
           className="mb-10"
         />
         <div className="grid gap-6 md:grid-cols-2">
-          {teacherDocs.map((doc) => (
+          {[...projectDocs, ...teacherDocs].map((doc) => (
             <DocumentCard
               key={doc.key}
               doc={doc}

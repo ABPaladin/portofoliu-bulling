@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Send, Mail, MessageSquareHeart } from 'lucide-react'
+import { Send, Mail, MessageSquareHeart, ClipboardCheck } from 'lucide-react'
 import PageHero from '../components/PageHero.jsx'
+import SectionHeading from '../components/SectionHeading.jsx'
+import Quiz from '../components/Quiz.jsx'
 import { CONTACT_EMAIL } from '../data/resources'
 
 export default function Evaluation() {
@@ -32,8 +34,22 @@ export default function Evaluation() {
         subtitle={t('evaluation.subtitle')}
       />
 
+      {/* Interactive knowledge quiz */}
       <section className="container-page py-16 sm:py-20">
-        <div className="mx-auto grid max-w-5xl gap-10 lg:grid-cols-5">
+        <div className="mx-auto max-w-3xl">
+          <SectionHeading
+            eyebrow={<span className="inline-flex items-center gap-1.5"><ClipboardCheck className="h-4 w-4" />{t('nav.evaluation')}</span>}
+            title={t('evaluation.quizTitle')}
+            subtitle={t('evaluation.quizIntro')}
+            className="mb-10"
+          />
+          <Quiz />
+        </div>
+      </section>
+
+      {/* Feedback form */}
+      <section className="border-t border-brand-100 bg-brand-50/40 py-16 sm:py-20">
+        <div className="mx-auto grid max-w-5xl gap-10 px-5 sm:px-8 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <span className="grid h-14 w-14 place-items-center rounded-2xl bg-brand-600 text-white">
               <MessageSquareHeart className="h-7 w-7" aria-hidden="true" />

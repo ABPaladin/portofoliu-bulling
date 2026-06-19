@@ -5,6 +5,7 @@ export const navLinks = [
   { to: '/', labelKey: 'nav.home', end: true },
   { to: '/about', labelKey: 'nav.about' },
   { to: '/project', labelKey: 'nav.project' },
+  { to: '/collaboration', labelKey: 'nav.collaboration' },
   { to: '/students', labelKey: 'nav.students' },
   { to: '/parents', labelKey: 'nav.parents' },
   { to: '/teachers', labelKey: 'nav.teachers' },

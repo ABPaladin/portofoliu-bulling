@@ -7,11 +7,12 @@
   },
   "nav": {
     "home": "Acasă",
-    "about": "Despre mine",
+    "about": "Despre",
     "project": "Proiect",
+    "collaboration": "Colaborare",
     "students": "Elevi",
     "parents": "Părinți",
-    "teachers": "Cadre didactice",
+    "teachers": "Profesori",
     "evaluation": "Evaluare",
     "openMenu": "Deschide meniul",
     "closeMenu": "Închide meniul",
@@ -130,6 +131,16 @@
         "objective": "Evaluarea impactului informațiilor prezentate în portofoliu prin colectarea a cel puțin 10 mărturii sau feedback-uri de la vizitatori (elevi sau colegi) până la sfârșitul anului academic.",
         "meta": "Timp: până la sfârșitul anului academic."
       }
+    ],
+    "realTitle": "De la idee la rezultate reale",
+    "realText": "Acest portofoliu a stat la baza proiectului educațional internațional „Unitate prin Diversitate — Spunem NU bullying-ului prin tradiție”, un parteneriat între Republica Moldova și Republica Cehă.",
+    "realCta": "Vezi colaborarea cu Cehia",
+    "outcomesTitle": "Rezultatele proiectului",
+    "outcomes": [
+      { "value": "72", "label": "elevi din Moldova și Cehia în ateliere" },
+      { "value": "252", "label": "elevi din primar în campania de prevenție" },
+      { "value": "7", "label": "profesori implicați (3 MD + 4 CZ)" },
+      { "value": "73", "label": "părinți instruiți" }
     ]
   },
   "students": {
@@ -148,6 +159,9 @@
     "game2Title": "Bulling sau prietenie?",
     "game2Desc": "🧲 Dacă ți-a plăcut experiența de mai sus, hai să mai exersăm prin joc… 🪂",
     "instructionsTitle": "Instrucțiuni",
+    "gamesTitle": "Jocuri interactive",
+    "openGame": "Deschide jocul",
+    "gameNote": "Dacă jocul nu se încarcă mai jos, folosește butonul ca să-l deschizi într-o filă nouă.",
     "game1Instructions": [
       "Citește întrebarea",
       "Gândește-te la răspuns",
@@ -176,6 +190,23 @@
     "welcome": "Bine ai venit! Citește scrisoarea de intenție.",
     "quote": "Un copil care se simte iubit și respectat acasă va avea rar nevoia să rănească pe cineva la școală și va avea mereu curajul să ceară ajutor dacă este rănit.",
     "letterAlt": "O scrisoare deschisă pentru părinți, semnată „Cu drag, Buga Victoria”",
+    "letterTitle": "Scrisoare de intenție",
+    "letter": {
+      "greeting": "Hei, bine ați venit în clubul nostru de super-părinți! 🤝",
+      "intro": "Dragi părinți,",
+      "p1": "Știm cu toții că școala ar trebui să fie un tărâm magic unde copiii noștri își descoperă super-puterile și își fac prieteni pe viață. Dar, uneori, acest tărâm este invadat de creaturi numite „bullying”.",
+      "p2": "Fie că te afli aici pentru că te lupți cu un dragon alături de copilul tău, sau vrei să fii un cavaler informat și pregătit, ai ajuns exact unde trebuie! Această pagină a fost creată pentru a transforma neputința în acțiune și tăcerea în dialogul eroic.",
+      "bulletsTitle": "Ce găsești aici?",
+      "bullets": [
+        "Resurse magice și strategii: cum să depistezi semnele subtile ale bullying-ului (fizic, verbal sau online).",
+        "Ghid de comunicare: cum să vorbești cu copilul tău fără să simtă că este interogat de un agent secret.",
+        "Pași concreți: cum să faci o alianță cu școala și să gestionezi conflictele ca un maestru Jedi.",
+        "Susținere: o comunitate care știe că nu există „copii răi”, doar comportamente care au nevoie de un pic de magie și de limite."
+      ],
+      "p3": "Reține: bullying-ul nu este un „rit de trecere” și nici ceva ce copiii trebuie să „îndure” pentru a deveni mai puternici. Este o problemă de siguranță emoțională care ne privește pe toți.",
+      "p4": "Hai să explorăm împreună soluțiile, să punem întrebări și să construim un tărâm mai sigur pentru viitorul copiilor noștri. Nu ești singur în această aventură!",
+      "signature": "Cu drag, Buga Victoria."
+    },
     "resourcesTitle": "Ghiduri și resurse de descărcat",
     "closing": "Nimeni nu este asigurat că propriul copil nu va fi de partea negativă — nu dispera, îl poți ajuta oricând.",
     "docs": {
@@ -219,6 +250,14 @@
       "doc_self_confidence": {
         "title": "Bullying vs Încrederea în sine",
         "desc": "O prezentare despre construirea încrederii în sine ca antidot împotriva bullying-ului."
+      },
+      "doc_unity": {
+        "title": "Unitate prin Diversitate — proiect anti-bullying final",
+        "desc": "Prezentarea completă a parteneriatului Moldova × Republica Cehă: argument, obiective SMART, activități și rezultate măsurabile."
+      },
+      "doc_friendship": {
+        "title": "Firul prieteniei — Mărțișor bilingv",
+        "desc": "O activitate anti-bullying bilingvă (RO–CZ) construită în jurul tradiției Mărțișorului și a puterii prieteniei."
       }
     }
   },
@@ -226,6 +265,70 @@
     "title": "Evaluare proiect",
     "subtitle": "Părerea ta contează",
     "intro": "Acest proiect crește prin vocea ta. Împărtășește o mărturie, o impresie sau o sugestie — feedback-ul tău ajută la măsurarea impactului proiectului și la îmbunătățirea resurselor pentru elevi, părinți și cadre didactice.",
+    "quizTitle": "Testează-ți cunoștințele",
+    "quizIntro": "Un test scurt despre ceea ce te învață proiectul despre bullying. Alege un singur răspuns la fiecare întrebare, apoi verifică rezultatele.",
+    "quizSubmit": "Finalizează testul",
+    "quizRetry": "Reia testul",
+    "quizScore": "Ai răspuns corect la {{correct}} din {{total}} întrebări.",
+    "quizPerfect": "Scor perfect — ești un adevărat aliat împotriva bullying-ului! 🎉",
+    "quizGood": "Bravo! Cunoști esențialul. 👏",
+    "quizKeep": "Bun început — explorează paginile și încearcă din nou! 💪",
+    "quizExplanation": "De ce",
+    "quizAnswerAll": "Răspunde la toate întrebările pentru a vedea rezultatele.",
+    "quiz": [
+      {
+        "q": "Ce hormon al stresului experimentează atât victima, cât și agresorul?",
+        "options": ["Adrenalina", "Cortizolul", "Dopamina"],
+        "answer": 1,
+        "explanation": "Cortizolul este principalul hormon al stresului, resimțit de ambele părți implicate."
+      },
+      {
+        "q": "Care este citatul central al proiectului?",
+        "options": [
+          "„O viață nu valorează nimic – nimic nu valorează cât o viață.”",
+          "„Tăcerea este de aur.”",
+          "„Fiecare pentru sine.”"
+        ],
+        "answer": 0,
+        "explanation": "Subliniază valoarea intrinsecă a fiecărui copil."
+      },
+      {
+        "q": "Ce reprezintă „Save” în regula celor 3 „S” pentru cyberbullying?",
+        "options": [
+          "Salvarea dovezilor prin capturi de ecran",
+          "Salvarea agresorului de la pedeapsă",
+          "Închiderea imediată a calculatorului"
+        ],
+        "answer": 0,
+        "explanation": "Salvează dovezile (capturile de ecran) înainte de a raporta un caz de cyberbullying."
+      },
+      {
+        "q": "Care este rolul unui „Upstander”?",
+        "options": [
+          "Cel care privește fără să intervină",
+          "Cel care ia atitudine și devine un apărător",
+          "Cel care ignoră diferențele dintre elevi"
+        ],
+        "answer": 1,
+        "explanation": "Un „upstander” ia atitudine și îi apără pe cei vulnerabili, spre deosebire de un „bystander” pasiv."
+      },
+      {
+        "q": "Care sunt principalele forme de bullying?",
+        "options": [
+          "Doar agresiunea fizică",
+          "Fizic, verbal, social și cyberbullying",
+          "Doar cyberbullying"
+        ],
+        "answer": 1,
+        "explanation": "Bullying-ul poate fi fizic, verbal, social (relațional) și online (cyberbullying)."
+      },
+      {
+        "q": "Cu ce țară a colaborat proiectul „Unitate prin Diversitate”?",
+        "options": ["Republica Cehă", "Franța", "Italia"],
+        "answer": 0,
+        "explanation": "Proiectul este un parteneriat între Republica Moldova și Republica Cehă."
+      }
+    ],
     "formTitle": "Lasă-ți feedback-ul",
     "name": "Numele tău",
     "namePlaceholder": "Cum să mă adresez?",
@@ -241,6 +344,84 @@
     "send": "Trimite feedback",
     "note": "Butonul deschide aplicația ta de email cu mesajul gata de trimis către Buga Victoria.",
     "directContact": "Preferi să scrii direct?"
+  },
+  "czech": {
+    "eyebrow": "Parteneriat internațional",
+    "title": "Unitate prin Diversitate",
+    "subtitle": "Spunem NU bullying-ului prin tradiție",
+    "partnership": "Republica Moldova × Republica Cehă",
+    "intro": "Un proiect educațional internațional care previne și combate bullying-ul în școala primară, transformând diversitatea culturală într-un instrument de coeziune — dezvoltând inteligența emoțională și spiritul de toleranță al copiilor prin tradiții și folclor.",
+    "partnersTitle": "Școlile partenere",
+    "partners": [
+      { "country": "🇲🇩 Republica Moldova", "school": "Complexul Educațional „Antonin Ursu”" },
+      { "country": "🇨🇿 Republica Cehă", "school": "Základní škola Pelhřimov, Osvobození" }
+    ],
+    "goalTitle": "Scopul proiectului",
+    "goal": "Fundamentarea și aplicarea unui model de prevenire și combatere a bullying-ului în mediul școlar, prin valorizarea diversității culturale ca instrument de coeziune, în cadrul unui parteneriat educațional internațional (Republica Moldova – Cehia), prin valorificarea tradițiilor și obiceiurilor naționale.",
+    "argumentTitle": "De ce acest proiect",
+    "argument": "Bullying-ul nu mai este un incident izolat, ci o problemă sistemică globală. Copiii acceptă tot mai greu diversitatea și necunoscutul, iar elevii care trec de la primar la gimnaziu sunt supuși bullying-ului în proporție de până la 50%. Este mult mai eficient să prevenim și să educăm de la început, decât să corectăm mai târziu tipare adânc înrădăcinate. Am ales o școală parteneră din Cehia pentru experiența ei vastă în incluziune școlară și starea de bine a elevilor — ceea ce ne-a permis să comparăm metode de prevenție și să preluăm bune practici europene.",
+    "teamTitle": "Echipa proiectului",
+    "team": [
+      { "name": "Buga Victoria", "role": "Psiholog · coordonator de proiect" },
+      { "name": "Markéta Pavlíková · Corniță Tatiana", "role": "Profesoare de limba engleză · coordonatoare partenere" },
+      { "name": "Tereza Hubatová", "role": "Psiholog școala primară (Cehia)" }
+    ],
+    "stagesTitle": "Etapele activităților",
+    "stages": [
+      {
+        "period": "Septembrie – Decembrie 2025",
+        "title": "„Zestrea mea – Zestrea ta”",
+        "desc": "O echipă anti-bullying din elevi de clasa a IV-a a fost instruită și a realizat sesiuni de informare în 10 clase și 2 grupe de grădiniță. Copiii au făcut cunoștință online, și-au prezentat tradițiile, au schimbat scrisori și cărți poștale și au creat un manifest împotriva bullying-ului.",
+        "motto": "Ce ție nu-ți place, altuia nu-i face."
+      },
+      {
+        "period": "Decembrie 2025 – Ianuarie 2026",
+        "title": "„Click pe Omenie”",
+        "desc": "Șezătoare digitală a datinilor de iarnă: elevii au învățat colinde și dansuri populare care simbolizează unirea, au alcătuit proverbe anti-bullying și au creat un ebook bilingv cu fraze calde.",
+        "motto": "Kind words bring big rewards."
+      },
+      {
+        "period": "Martie – Aprilie 2026",
+        "title": "„Firul prieteniei – Mărțișor bilingv”",
+        "desc": "Pornind de la legenda Mărțișorului, copiii au creat mărțișoare bilingve cu cuvinte calde și au realizat o expoziție comună. Elevii din Cehia le-au purtat în martie în semn de prietenie — dovadă că prietenia adevărată nu cunoaște granițe.",
+        "motto": "Unde-s mulți puterea crește."
+      },
+      {
+        "period": "Aprilie 2026",
+        "title": "„Diferiți dar Uniți”",
+        "desc": "Prin tradițiile pascale ale iertării, generozității și păcii, copiii au înțeles că diversitatea nu este un motiv de marginalizare, ci o bogăție care ne unește.",
+        "motto": "Kind words bring big rewards."
+      }
+    ],
+    "resultsTitle": "Rezultate și impact",
+    "quantTitle": "În cifre",
+    "quant": [
+      "72 de elevi din Moldova și Cehia au participat activ la toate atelierele",
+      "252 de elevi din primar cuprinși în campania de prevenție anti-bullying",
+      "7 profesori implicați (3 din Moldova, 4 din Cehia)",
+      "73 de părinți instruiți în metode de prevenire a bullying-ului",
+      "8 activități online comune cu clasa parteneră din Cehia",
+      "1 portofoliu digital și 1 acord de parteneriat internațional"
+    ],
+    "qualTitle": "Schimbări calitative",
+    "qual": [
+      "Reducerea comportamentelor de excludere și etichetare",
+      "Dezvoltarea rezilienței în fața agresivității",
+      "Comunicare asertivă și limite verbalizate clar",
+      "Terapie prin tradiție și activități colaborative",
+      "Lucrul în echipă care a demontat ierarhiile de putere specifice bullying-ului"
+    ],
+    "vocabTitle": "Cuvintele prieteniei (Română – Cehă)",
+    "vocab": [
+      { "ro": "BUNĂTATE", "cz": "LASKAVOST", "pron": "Las-ka-vost" },
+      { "ro": "PACE", "cz": "MÍR", "pron": "Mir" },
+      { "ro": "RESPECT", "cz": "ÚCTA", "pron": "U-țta" },
+      { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smiev" },
+      { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-moț" }
+    ],
+    "docsTitle": "Prezentările proiectului",
+    "closing": "În acest proiect alegem să fim eroi ai bunătății, nu spectatori ai răutății. Dacă vezi bullying — nu tăcea, fii un prieten adevărat! Împreună construim o școală a prieteniei.",
+    "thanks": "Mulțumim · Děkujeme · Thank You"
   },
   "footer": {
     "blurb": "Un proiect educațional anti-bullying care oferă instrumente validate științific pentru elevi, părinți și cadre didactice.",

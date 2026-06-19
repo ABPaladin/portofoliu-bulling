@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { FileText, FileType, Presentation, ExternalLink, Download } from 'lucide-react'
-import { makeUrls } from '../data/resources'
 
 // Visual treatment per document type (mirrors the original Drive file types).
 const TYPE_STYLES = {
@@ -12,7 +11,7 @@ const TYPE_STYLES = {
 export default function DocumentCard({ doc, titleKey, descKey }) {
   const { t } = useTranslation()
   const { Icon, badge, ring } = TYPE_STYLES[doc.type] ?? TYPE_STYLES.pdf
-  const { view, download } = makeUrls(doc.id)
+  const { view, download } = doc
 
   return (
     <article className={`card flex flex-col gap-4 p-6 ring-1 ${ring} transition hover:-translate-y-1 hover:shadow-soft`}>

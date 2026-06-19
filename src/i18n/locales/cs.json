@@ -9,6 +9,7 @@
     "home": "Domů",
     "about": "O mně",
     "project": "Projekt",
+    "collaboration": "Spolupráce",
     "students": "Žáci",
     "parents": "Rodiče",
     "teachers": "Učitelé",
@@ -130,6 +131,16 @@
         "objective": "Vyhodnotit dopad informací uvedených v portfoliu shromážděním nejméně 10 svědectví nebo zpětných vazeb od návštěvníků (žáků nebo kolegů) do konce akademického roku.",
         "meta": "Termín: do konce akademického roku."
       }
+    ],
+    "realTitle": "Od nápadu ke skutečnému dopadu",
+    "realText": "Toto portfolio se stalo základem mezinárodního vzdělávacího projektu „Jednota v rozmanitosti — Říkáme NE šikaně skrze tradici“, partnerství mezi Moldavskou republikou a Českou republikou.",
+    "realCta": "Prohlédnout spolupráci s Českem",
+    "outcomesTitle": "Výsledky projektu",
+    "outcomes": [
+      { "value": "72", "label": "žáků z Moldavska a Česka na workshopech" },
+      { "value": "252", "label": "žáků 1. stupně v preventivní kampani" },
+      { "value": "7", "label": "zapojených učitelů (3 MD + 4 CZ)" },
+      { "value": "73", "label": "proškolených rodičů" }
     ]
   },
   "students": {
@@ -148,6 +159,9 @@
     "game2Title": "Šikana, nebo přátelství?",
     "game2Desc": "🧲 Pokud se ti zážitek výše líbil, pojďme procvičovat dál pomocí hry… 🪂",
     "instructionsTitle": "Pokyny",
+    "gamesTitle": "Interaktivní hry",
+    "openGame": "Otevřít hru",
+    "gameNote": "Pokud se hra níže nenačte, otevřete ji tlačítkem v nové záložce.",
     "game1Instructions": [
       "Přečti si otázku",
       "Zamysli se nad odpovědí",
@@ -176,6 +190,23 @@
     "welcome": "Vítejte! Přečtěte si úvodní dopis.",
     "quote": "Dítě, které se doma cítí milované a respektované, bude jen zřídka potřebovat někomu ve škole ublížit — a vždy bude mít odvahu požádat o pomoc, pokud bude zraněno.",
     "letterAlt": "Otevřený dopis rodičům, podepsaný „S láskou, Buga Victoria“",
+    "letterTitle": "Úvodní dopis",
+    "letter": {
+      "greeting": "Ahoj, vítejte v našem klubu super-rodičů! 🤝",
+      "intro": "Milí rodiče,",
+      "p1": "Všichni víme, že škola by měla být kouzelným světem, kde naše děti objevují své superschopnosti a získávají přátele na celý život. Někdy je ale tento svět napaden tvory zvanými „šikana“.",
+      "p2": "Ať už jste tu proto, že po boku svého dítěte bojujete s drakem, nebo chcete být informovaný a připravený rytíř, jste přesně tam, kde máte být! Tato stránka vznikla proto, aby proměnila bezmoc v čin a mlčení v hrdinský dialog.",
+      "bulletsTitle": "Co tu najdete?",
+      "bullets": [
+        "Kouzelné zdroje a strategie: jak rozpoznat jemné příznaky šikany (fyzické, verbální i online).",
+        "Průvodce komunikací: jak mluvit s dítětem tak, aby nemělo pocit výslechu tajným agentem.",
+        "Konkrétní kroky: jak vytvořit spojenectví se školou a zvládat konflikty jako mistr Jedi.",
+        "Podpora: komunita, která ví, že neexistují „zlé děti“, jen chování, které potřebuje trochu kouzla a hranic."
+      ],
+      "p3": "Pamatujte: šikana není „rituál dospívání“ ani něco, co děti musí „vydržet“, aby zesílily. Je to otázka emoční bezpečnosti, která se týká nás všech.",
+      "p4": "Pojďme společně hledat řešení, klást otázky a budovat bezpečnější svět pro budoucnost našich dětí. V tomto dobrodružství nejste sami!",
+      "signature": "S láskou, Buga Victoria."
+    },
     "resourcesTitle": "Příručky a zdroje ke stažení",
     "closing": "Nikdo nemá jistotu, že jeho vlastní dítě neskončí na té negativní straně — nezoufejte, vždy mu můžete pomoci.",
     "docs": {
@@ -219,6 +250,14 @@
       "doc_self_confidence": {
         "title": "Šikana vs. sebedůvěra",
         "desc": "Prezentace o budování sebedůvěry jako protijedu proti šikaně."
+      },
+      "doc_unity": {
+        "title": "Jednota v rozmanitosti — finální projekt proti šikaně",
+        "desc": "Kompletní prezentace partnerství Moldavsko × Česká republika: zdůvodnění, cíle SMART, aktivity a měřitelné výsledky."
+      },
+      "doc_friendship": {
+        "title": "Nit přátelství — dvojjazyčný Mărțișor",
+        "desc": "Dvojjazyčná (RO–CZ) aktivita proti šikaně postavená na tradici Mărțișoru a síle přátelství."
       }
     }
   },
@@ -226,6 +265,70 @@
     "title": "Hodnocení projektu",
     "subtitle": "Na vašem názoru záleží",
     "intro": "Tento projekt roste díky vašemu hlasu. Podělte se o svědectví, dojem nebo návrh — vaše zpětná vazba pomáhá měřit dopad projektu a zlepšovat zdroje pro žáky, rodiče i učitele.",
+    "quizTitle": "Otestuj si znalosti",
+    "quizIntro": "Krátký kvíz o tom, co projekt učí o šikaně. U každé otázky vyber jednu odpověď a pak zkontroluj výsledky.",
+    "quizSubmit": "Dokončit test",
+    "quizRetry": "Zkusit znovu",
+    "quizScore": "Správně jsi odpověděl/a na {{correct}} z {{total}} otázek.",
+    "quizPerfect": "Plný počet — jsi opravdový spojenec proti šikaně! 🎉",
+    "quizGood": "Výborně! Základy znáš. 👏",
+    "quizKeep": "Dobrý začátek — prozkoumej stránky a zkus to znovu! 💪",
+    "quizExplanation": "Proč",
+    "quizAnswerAll": "Odpověz na všechny otázky, abys viděl/a výsledky.",
+    "quiz": [
+      {
+        "q": "Který stresový hormon prožívá oběť i agresor?",
+        "options": ["Adrenalin", "Kortizol", "Dopamin"],
+        "answer": 1,
+        "explanation": "Kortizol je hlavní stresový hormon, který pociťují obě zúčastněné strany."
+      },
+      {
+        "q": "Jaký je ústřední citát projektu?",
+        "options": [
+          "„Život sám o sobě nemá cenu – nic nemá takovou cenu jako život.“",
+          "„Mlčení je zlato.“",
+          "„Každý sám za sebe.“"
+        ],
+        "answer": 0,
+        "explanation": "Zdůrazňuje vnitřní hodnotu každého dítěte."
+      },
+      {
+        "q": "Co znamená „Save“ v pravidle tří „S“ pro kyberšikanu?",
+        "options": [
+          "Uložení důkazů pomocí snímků obrazovky",
+          "Zachránit agresora před trestem",
+          "Okamžitě vypnout počítač"
+        ],
+        "answer": 0,
+        "explanation": "Ulož důkazy (snímky obrazovky) dříve, než nahlásíš případ kyberšikany."
+      },
+      {
+        "q": "Jaká je role „Upstandera“?",
+        "options": [
+          "Ten, kdo se dívá a nezasáhne",
+          "Ten, kdo zaujme postoj a stane se obráncem",
+          "Ten, kdo ignoruje rozdíly mezi žáky"
+        ],
+        "answer": 1,
+        "explanation": "Upstander jedná a brání zranitelné, na rozdíl od pasivního přihlížejícího."
+      },
+      {
+        "q": "Jaké jsou hlavní formy šikany?",
+        "options": [
+          "Pouze fyzická agrese",
+          "Fyzická, verbální, sociální a kyberšikana",
+          "Pouze kyberšikana"
+        ],
+        "answer": 1,
+        "explanation": "Šikana může být fyzická, verbální, sociální (vztahová) i online (kyberšikana)."
+      },
+      {
+        "q": "S jakou zemí projekt „Jednota v rozmanitosti“ spolupracoval?",
+        "options": ["Česká republika", "Francie", "Itálie"],
+        "answer": 0,
+        "explanation": "Projekt je partnerstvím mezi Moldavskou republikou a Českou republikou."
+      }
+    ],
     "formTitle": "Zanechte zpětnou vazbu",
     "name": "Vaše jméno",
     "namePlaceholder": "Jak vás mám oslovovat?",
@@ -241,6 +344,84 @@
     "send": "Odeslat zpětnou vazbu",
     "note": "Tlačítko otevře vaši e-mailovou aplikaci se zprávou připravenou k odeslání Buze Victorii.",
     "directContact": "Raději píšete přímo?"
+  },
+  "czech": {
+    "eyebrow": "Mezinárodní partnerství",
+    "title": "Jednota v rozmanitosti",
+    "subtitle": "Říkáme NE šikaně skrze tradici",
+    "partnership": "Moldavská republika × Česká republika",
+    "intro": "Mezinárodní vzdělávací projekt, který předchází šikaně a potírá ji na 1. stupni ZŠ tím, že proměňuje kulturní rozmanitost v nástroj sblížení — rozvíjí emoční inteligenci a ducha tolerance dětí prostřednictvím národních tradic a folkloru.",
+    "partnersTitle": "Partnerské školy",
+    "partners": [
+      { "country": "🇲🇩 Moldavská republika", "school": "Vzdělávací komplex „Antonin Ursu“" },
+      { "country": "🇨🇿 Česká republika", "school": "Základní škola Pelhřimov, Osvobození" }
+    ],
+    "goalTitle": "Cíl projektu",
+    "goal": "Vytvořit a uplatnit model prevence a potírání šikany ve školách tím, že kulturní rozmanitost využijeme jako nástroj soudržnosti, v rámci mezinárodního vzdělávacího partnerství (Moldavsko – Česko), prostřednictvím národních tradic a zvyků.",
+    "argumentTitle": "Proč tento projekt",
+    "argument": "Šikana už není ojedinělým incidentem, ale systémovým, globálním problémem. Děti stále hůře přijímají rozmanitost a neznámé a až 50 % žáků přecházejících z 1. na 2. stupeň zažívá šikanu. Je mnohem účinnější předcházet a vzdělávat od začátku než později napravovat hluboce zakořeněné vzorce. Partnerskou školu v Česku jsme zvolili pro její bohaté zkušenosti se školní inkluzí a wellbeingem žáků — což nám umožnilo porovnat metody prevence a převzít dobrou evropskou praxi.",
+    "teamTitle": "Tým projektu",
+    "team": [
+      { "name": "Buga Victoria", "role": "Psycholožka · koordinátorka projektu" },
+      { "name": "Markéta Pavlíková · Corniță Tatiana", "role": "Učitelky angličtiny · partnerské koordinátorky" },
+      { "name": "Tereza Hubatová", "role": "Psycholožka 1. stupně ZŠ (Česká republika)" }
+    ],
+    "stagesTitle": "Etapy aktivit",
+    "stages": [
+      {
+        "period": "Září – Prosinec 2025",
+        "title": "„Moje dědictví – tvé dědictví“",
+        "desc": "Tým proti šikaně složený ze žáků 4. třídy byl proškolen a vedl informační setkání v 10 třídách a 2 skupinách MŠ. Děti se seznámily online, představily si své nejkrásnější tradice, vyměnily si dopisy a pohlednice a sepsaly manifest proti šikaně.",
+        "motto": "Co nechceš, aby druzí činili tobě, nečiň ty jim."
+      },
+      {
+        "period": "Prosinec 2025 – Leden 2026",
+        "title": "„Klikni na laskavost“",
+        "desc": "Digitální setkání zimních zvyků: žáci se naučili koledy a lidové tance symbolizující jednotu, sestavili dvojjazyčná přísloví proti šikaně a vytvořili dvojjazyčný e-book laskavých vět.",
+        "motto": "Kind words bring big rewards."
+      },
+      {
+        "period": "Březen – Duben 2026",
+        "title": "„Nit přátelství – dvojjazyčný Mărțișor“",
+        "desc": "Děti vyšly z legendy o Mărțișoru a vytvořily dvojjazyčné mărțișory s laskavými slovy a uspořádaly společnou výstavu. Čeští žáci je v březnu nosili na znamení přátelství — důkaz, že pravé přátelství nezná hranic.",
+        "motto": "Ve spojení je síla."
+      },
+      {
+        "period": "Duben 2026",
+        "title": "„Různí, ale jednotní“",
+        "desc": "Prostřednictvím velikonočních tradic odpuštění, štědrosti a míru děti pochopily, že rozmanitost není důvodem k vyčleňování, ale bohatstvím, které nás spojuje.",
+        "motto": "Kind words bring big rewards."
+      }
+    ],
+    "resultsTitle": "Výsledky a dopad",
+    "quantTitle": "V číslech",
+    "quant": [
+      "72 žáků z Moldavska a Česka se aktivně zúčastnilo všech workshopů",
+      "252 žáků 1. stupně zasaženo preventivní kampaní proti šikaně",
+      "7 zapojených učitelů (3 z Moldavska, 4 z Česka)",
+      "73 rodičů proškolených v metodách prevence šikany",
+      "8 společných online aktivit s českou partnerskou třídou",
+      "1 digitální portfolio a 1 mezinárodní dohoda o partnerství"
+    ],
+    "qualTitle": "Kvalitativní změna",
+    "qual": [
+      "Méně vyčleňování a nálepkování",
+      "Vyšší odolnost vůči agresi",
+      "Asertivní komunikace a jasně vyjádřené hranice",
+      "Terapie skrze tradici a společné aktivity",
+      "Týmová práce, která rozbila mocenské hierarchie typické pro šikanu"
+    ],
+    "vocabTitle": "Slova přátelství (rumunsky – česky)",
+    "vocab": [
+      { "ro": "BUNĂTATE", "cz": "LASKAVOST", "pron": "Las-ka-vost" },
+      { "ro": "PACE", "cz": "MÍR", "pron": "Mir" },
+      { "ro": "RESPECT", "cz": "ÚCTA", "pron": "U-cta" },
+      { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smjev" },
+      { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-mots" }
+    ],
+    "docsTitle": "Prezentace projektu",
+    "closing": "V tomto projektu se rozhodujeme být hrdiny laskavosti, ne diváky krutosti. Když vidíš šikanu — nemlč, buď opravdový kamarád! Společně budujeme školu přátelství.",
+    "thanks": "Mulțumim · Děkujeme · Thank You"
   },
   "footer": {
     "blurb": "Vzdělávací projekt proti šikaně, který nabízí vědecky podložené nástroje pro žáky, rodiče i učitele.",
