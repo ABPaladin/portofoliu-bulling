@@ -1,0 +1,259 @@
+{
+  "site": {
+    "name": "Buga Victoria",
+    "role": "Psychologist",
+    "tagline": "Together we stop bullying",
+    "projectName": "Bullying Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "project": "Project",
+    "students": "Students",
+    "parents": "Parents",
+    "teachers": "Teachers",
+    "evaluation": "Evaluation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "audiences": "Audiences"
+  },
+  "common": {
+    "readMore": "Read more",
+    "download": "Download",
+    "open": "Open",
+    "openInDrive": "Open in Google Drive",
+    "viewPresentation": "Open the presentation",
+    "backToTop": "Back to top",
+    "email": "Email",
+    "writeToMe": "Write to me",
+    "explore": "Explore"
+  },
+  "docType": {
+    "pdf": "PDF document",
+    "docx": "Word document",
+    "pptx": "Presentation"
+  },
+  "home": {
+    "heroTagline": "Together we stop bullying",
+    "heroTitle": "Bullying, explained for everyone",
+    "heroSubtitle": "An educational anti-bullying project by Buga Victoria, psychologist — practical, science-based tools for students, parents and teachers.",
+    "heroCtaPrimary": "Explore the project",
+    "heroCtaSecondary": "Watch the presentation",
+    "presentationTitle": "Bullying, explained for everyone",
+    "presentationDesc": "A short presentation that introduces the project and its core message — for children, and for everyone who cares about them.",
+    "audienceTitle": "Where do you fit in?",
+    "audienceSubtitle": "Choose your space. Every resource is tailored to you.",
+    "audiences": {
+      "student": {
+        "tag": "I am a STUDENT",
+        "desc": "You are stronger than you think. Discover videos, games and a letter written just for you.",
+        "cta": "Enter the students' space"
+      },
+      "parent": {
+        "tag": "I am a PARENT",
+        "desc": "Guides and a 24-hour action plan to help you protect and support your child.",
+        "cta": "Enter the parents' space"
+      },
+      "teacher": {
+        "tag": "I am a TEACHER",
+        "desc": "Practical techniques and lesson materials to build a safe classroom.",
+        "cta": "Enter the teachers' space"
+      }
+    },
+    "missionTitle": "My mission",
+    "missionIntro": "“Bullying, explained for everyone” is not just a title — it is a personal mission.",
+    "quote": "A life is worth nothing — but nothing is worth as much as a life."
+  },
+  "mission": {
+    "prevent": {
+      "title": "Prevent",
+      "desc": "Understanding the psychological roots of both the aggressor and the victim is the first step toward breaking this cycle."
+    },
+    "protect": {
+      "title": "Protect",
+      "desc": "Children and teenagers need healthy coping mechanisms and a scientifically validated support system."
+    },
+    "educate": {
+      "title": "Educate",
+      "desc": "Through accurate information we can turn passive “bystanders” into active allies of the vulnerable."
+    }
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Who am I?",
+    "intro": "I am Buga Victoria — daughter, psychologist, wife, mother, colleague, friend…",
+    "body": "I chose to become a psychologist out of a deep conviction that every person deserves to be heard, understood and supported on their journey of becoming. In an increasingly noisy world, I felt the need to create a space of calm and safety for the human soul. My fascination with the mechanisms of the mind and my desire to transform suffering into resilience guided me toward this profession, which is, in essence, a form of the art of human connection.",
+    "whyTitle": "Why do I research bullying?",
+    "whyIntro": "I chose the topic of bullying for my research because I believe it is one of the most critical challenges of today's educational and social environment. “Bullying, explained for everyone” is not just a title, but a personal mission to:",
+    "quote": "A life is worth nothing — but nothing is worth as much as a life.",
+    "quoteCaption": "This quote reflects the essence of my work: the fight for the dignity and balance of every person who crosses the threshold of the office or who is part of our community.",
+    "portraitAlt": "Black-and-white portrait of a mother holding her smiling child"
+  },
+  "project": {
+    "title": "The project",
+    "subtitle": "Bullying, explained for everyone",
+    "whyTitle": "Why do I research bullying?",
+    "whyIntro": "I chose the topic of bullying for my research because I believe it is one of the most critical challenges of today's educational and social environment. “Bullying, explained for everyone” is not just a title, but a personal mission to:",
+    "goalTitle": "Project goal",
+    "goal": "The goal of this project is to raise awareness of, prevent and combat bullying among students and young people by offering psychological tools accessible to everyone involved: victims, aggressors, parents and teachers. The project aims to turn the educational environment into a safe space built on empathy and mutual respect.",
+    "objectivesTitle": "SMART objectives",
+    "objectivesNote": "Specific · Measurable · Achievable · Relevant · Time-bound",
+    "objectives": [
+      {
+        "tag": "Specific",
+        "title": "Inform & clarify",
+        "objective": "Identify and explain the main forms of bullying (physical, verbal, social and cyberbullying) through at least 5 educational resources (articles, infographics or presentations) posted in the portfolio.",
+        "meta": "Timeframe: within the first 4 weeks of the project."
+      },
+      {
+        "tag": "Measurable",
+        "title": "Develop empathy",
+        "objective": "Create and distribute a school-climate assessment questionnaire for a group of at least 30 students, to measure the level of empathy and the incidence of aggressive behaviour.",
+        "meta": "Timeframe: over the course of one school semester."
+      },
+      {
+        "tag": "Achievable",
+        "title": "Intervene & support",
+        "objective": "Develop a practical “Emotional First Aid” guide containing 5 coping techniques for bullying victims and 3 anger-management strategies for aggressors.",
+        "meta": "Timeframe: by the completion of the current research."
+      },
+      {
+        "tag": "Relevant",
+        "title": "Social relevance",
+        "objective": "Organise or propose a group counselling session (online or in person) addressing the central quote: “A life is worth nothing — nothing is worth as much as a life”, emphasising the intrinsic value of every child.",
+        "meta": "Relevance: essential for reducing the risk of school dropout and depression."
+      },
+      {
+        "tag": "Time-bound",
+        "title": "Monitor impact",
+        "objective": "Evaluate the impact of the information presented in the portfolio by collecting at least 10 testimonials or pieces of feedback from visitors (students or colleagues) by the end of the academic year.",
+        "meta": "Timeframe: by the end of the academic year."
+      }
+    ]
+  },
+  "students": {
+    "heroTitle": "You are stronger than you think. Welcome!",
+    "heroSubtitle": "This is your safe space — explore it with confidence.",
+    "letterTitle": "Read my letter to you",
+    "letter": {
+      "greeting": "Welcome to your safe space!",
+      "p1": "Hi! I'm so glad you made it here. This corner of the internet was created especially for you. I know that sometimes school or your group of friends can become complicated places, and bullying can make you feel alone or misunderstood. I want you to know that here, your voice matters.",
+      "p2": "You are not alone in this story. Here you'll find advice on how to become stronger, how to help others and — most importantly — you'll learn that a life is worth nothing, and nothing is worth as much as a life. That means YOUR life is the most precious thing. Explore with confidence!"
+    },
+    "videosTitle": "Watch short videos",
+    "videosDesc": "📢 Watch short clips that will help you understand the situation correctly, judge it well and know how to react next. Choose the clip that resonates with you, depending on your age. 🎞️",
+    "game1Title": "Learn through play",
+    "game1Desc": "📌 I can help you understand the idea of bullying better — through a game. Follow the steps below… 🌟",
+    "game2Title": "Bullying or friendship?",
+    "game2Desc": "🧲 If you enjoyed the experience above, let's keep practising through play… 🪂",
+    "instructionsTitle": "Instructions",
+    "game1Instructions": [
+      "Read the question",
+      "Think about your answer",
+      "Tap the card to see if you answered correctly…"
+    ],
+    "game2Instructions": [
+      "Read the situation",
+      "Decide: is it bullying or friendship?",
+      "Drag the card into the right column…"
+    ],
+    "quote": "If you are different, it means you have something special to offer the world. Don't try to fit into a crowd that doesn't deserve you.",
+    "affirm1": "BE STRONG!",
+    "affirm2": "BELIEVE IN YOURSELF!",
+    "galleryTitle": "What bullying can look like",
+    "gallery": {
+      "hero": "A child sitting alone in the school hallway",
+      "fingers": "A child surrounded by pointing fingers",
+      "filming": "A child being filmed and mocked by classmates",
+      "girls": "A girl being laughed at by a group",
+      "stop": "A child holding up a hand that says “stop”",
+      "illustration": "Illustration of a child being laughed at"
+    }
+  },
+  "parents": {
+    "title": "For parents",
+    "welcome": "Welcome! Read the letter of intent.",
+    "quote": "A child who feels loved and respected at home will rarely need to hurt someone at school — and will always have the courage to ask for help if they are hurt.",
+    "letterAlt": "An open letter to parents, signed “With love, Buga Victoria”",
+    "resourcesTitle": "Guides & resources to download",
+    "closing": "No one is guaranteed that their own child won't end up on the negative side — don't despair, you can always help them.",
+    "docs": {
+      "doc_phase": {
+        "title": "“Just a phase” or is it Bullying? — How to decode a child's silence",
+        "desc": "🚑 A guide on how to give quick help without harming your child. Read it first."
+      },
+      "doc_24h": {
+        "title": "The 24-hour plan FOR PARENTS",
+        "desc": "An action plan for the first day after bullying. The first 24 hours are essential — read carefully and choose exactly how to react promptly, for your child's benefit."
+      },
+      "doc_my_child": {
+        "title": "My child is the one doing the bullying",
+        "desc": "“We are parents, not perfect. How do we help our children become better?”"
+      },
+      "doc_activities": {
+        "title": "Activities for children who bully",
+        "desc": "Try these activities and stay by their side. Support is the most important step here — you can turn a moral lesson into attractive games with quick results."
+      }
+    }
+  },
+  "teachers": {
+    "title": "For teachers",
+    "welcome": "Welcome to the page created for you, dear teacher!",
+    "intro": "With great respect, Buga Victoria, psychologist.",
+    "highlight": "Create a truly special lesson with your students!",
+    "resourcesTitle": "Materials & guides to download",
+    "docs": {
+      "doc_respect": {
+        "title": "With great respect — Buga Victoria, psychologist",
+        "desc": "A personal welcome message for the teachers who visit this page."
+      },
+      "doc_stop": {
+        "title": "Stop bullying — I know, I understand, I apply",
+        "desc": "A guide with techniques for working through bullying situations in the classroom."
+      },
+      "doc_for_teachers": {
+        "title": "Bullying — for teachers",
+        "desc": "A ready-to-use presentation to run a meaningful lesson with your students."
+      },
+      "doc_self_confidence": {
+        "title": "Bullying vs Self-confidence",
+        "desc": "A presentation on building self-confidence as an antidote to bullying."
+      }
+    }
+  },
+  "evaluation": {
+    "title": "Project evaluation",
+    "subtitle": "Your feedback matters",
+    "intro": "This project grows with your voice. Share a testimonial, an impression or a suggestion — your feedback helps measure the project's impact and improve the resources for students, parents and teachers.",
+    "formTitle": "Share your feedback",
+    "name": "Your name",
+    "namePlaceholder": "How should I address you?",
+    "role": "I am a…",
+    "roles": {
+      "student": "Student",
+      "parent": "Parent",
+      "teacher": "Teacher",
+      "other": "Other"
+    },
+    "message": "Your message",
+    "messagePlaceholder": "Write your impression, testimonial or suggestion here…",
+    "send": "Send feedback",
+    "note": "The button opens your email app with the message ready to send to Buga Victoria.",
+    "directContact": "Prefer to write directly?"
+  },
+  "footer": {
+    "blurb": "An educational anti-bullying project offering science-based tools for students, parents and teachers.",
+    "quickLinks": "Pages",
+    "audiences": "Audiences",
+    "contact": "Contact",
+    "license": "Portfolio “Bullying” © {{year}} by Buga Victoria",
+    "licensedUnder": "Licensed under CC BY 4.0",
+    "builtWith": "Rebuilt as a modern, accessible web app."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you are looking for doesn't exist.",
+    "cta": "Back to home"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "site": {
+    "name": "Buga Victoria",
+    "role": "Psiholog",
+    "tagline": "Împreună oprim bullying-ul",
+    "projectName": "Portofoliu Bulling"
+  },
+  "nav": {
+    "home": "Acasă",
+    "about": "Despre mine",
+    "project": "Proiect",
+    "students": "Elevi",
+    "parents": "Părinți",
+    "teachers": "Cadre didactice",
+    "evaluation": "Evaluare",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "language": "Limbă",
+    "audiences": "Pentru cine"
+  },
+  "common": {
+    "readMore": "Citește mai mult",
+    "download": "Descarcă",
+    "open": "Deschide",
+    "openInDrive": "Deschide în Google Drive",
+    "viewPresentation": "Deschide prezentarea",
+    "backToTop": "Sus",
+    "email": "Email",
+    "writeToMe": "Scrie-mi",
+    "explore": "Explorează"
+  },
+  "docType": {
+    "pdf": "Document PDF",
+    "docx": "Document Word",
+    "pptx": "Prezentare"
+  },
+  "home": {
+    "heroTagline": "Împreună oprim bullying-ul",
+    "heroTitle": "Bullying-ul pe înțelesul tuturor",
+    "heroSubtitle": "Un proiect educațional anti-bullying realizat de Buga Victoria, psiholog — instrumente practice, validate științific, pentru elevi, părinți și cadre didactice.",
+    "heroCtaPrimary": "Explorează proiectul",
+    "heroCtaSecondary": "Vezi prezentarea",
+    "presentationTitle": "Bullying-ul pe înțelesul tuturor",
+    "presentationDesc": "O prezentare scurtă care introduce proiectul și mesajul său — pentru copii și pentru toți cei cărora le pasă de ei.",
+    "audienceTitle": "Tu unde te regăsești?",
+    "audienceSubtitle": "Alege-ți spațiul. Fiecare resursă este gândită pentru tine.",
+    "audiences": {
+      "student": {
+        "tag": "Sunt ELEV",
+        "desc": "Ești mai puternic decât crezi. Descoperă filmulețe, jocuri și o scrisoare scrisă special pentru tine.",
+        "cta": "Intră în spațiul elevilor"
+      },
+      "parent": {
+        "tag": "Sunt PĂRINTE",
+        "desc": "Ghiduri și un plan de acțiune de 24 de ore care te ajută să-ți protejezi și să-ți susții copilul.",
+        "cta": "Intră în spațiul părinților"
+      },
+      "teacher": {
+        "tag": "Sunt PROFESOR",
+        "desc": "Tehnici practice și materiale de lucru pentru a construi o clasă sigură.",
+        "cta": "Intră în spațiul cadrelor didactice"
+      }
+    },
+    "missionTitle": "Misiunea mea",
+    "missionIntro": "„Bullying-ul pe înțelesul tuturor” nu este doar un titlu — este o misiune personală.",
+    "quote": "O viață nu valorează nimic – dar nimic nu valorează cât o viață."
+  },
+  "mission": {
+    "prevent": {
+      "title": "Preveni",
+      "desc": "Înțelegerea rădăcinilor psihologice ale agresorului și ale victimei este primul pas spre stoparea acestui ciclu."
+    },
+    "protect": {
+      "title": "Proteja",
+      "desc": "Copiii și adolescenții au nevoie de mecanisme de coping sănătoase și de un sistem de suport validat științific."
+    },
+    "educate": {
+      "title": "Educa",
+      "desc": "Cred că prin informare corectă putem transforma „spectatorii” pasivi în aliați activi ai celor vulnerabili."
+    }
+  },
+  "about": {
+    "title": "Despre mine",
+    "subtitle": "Cine sunt eu?",
+    "intro": "Sunt Buga Victoria — fiică, psiholog, soție, mamă, colegă, prietenă…",
+    "body": "Am ales să devin psiholog din convingerea profundă că fiecare om merită să fie auzit, înțeles și susținut în procesul său de devenire. Într-o lume din ce în ce mai zgomotoasă, am simțit nevoia de a crea un spațiu de liniște și siguranță pentru sufletul uman. Fascinația mea pentru mecanismele minții și dorința de a transforma suferința în reziliență m-au ghidat spre această profesie, care este, în esență, o formă de artă a conexiunii umane.",
+    "whyTitle": "De ce cercetez fenomenul de Bullying?",
+    "whyIntro": "Am ales tema bullying-ului pentru cercetarea mea deoarece consider că este una dintre cele mai critice provocări ale mediului educațional și social actual. „Bullying-ul pe înțelesul tuturor” nu este doar un titlu, ci o misiune personală de a:",
+    "quote": "O viață nu valorează nimic – dar nimic nu valorează cât o viață.",
+    "quoteCaption": "Acest citat reflectă esența muncii mele: lupta pentru demnitatea și echilibrul fiecărei persoane care trece pragul cabinetului sau care face parte din comunitatea noastră.",
+    "portraitAlt": "Portret alb-negru al unei mame care își ține copilul zâmbitor în brațe"
+  },
+  "project": {
+    "title": "Proiectul",
+    "subtitle": "Bullying-ul pe înțelesul tuturor",
+    "whyTitle": "De ce cercetez fenomenul de Bullying?",
+    "whyIntro": "Am ales tema bullying-ului pentru cercetarea mea deoarece consider că este una dintre cele mai critice provocări ale mediului educațional și social actual. „Bullying-ul pe înțelesul tuturor” nu este doar un titlu, ci o misiune personală de a:",
+    "goalTitle": "Scopul proiectului",
+    "goal": "Scopul acestui proiect este conștientizarea, prevenirea și combaterea fenomenului de bullying în rândul elevilor și tinerilor, prin oferirea unor instrumente psihologice accesibile tuturor actorilor implicați: victime, agresori, părinți și cadre didactice. Proiectul își propune să transforme mediul educațional într-un spațiu sigur, bazat pe empatie și respect reciproc.",
+    "objectivesTitle": "Obiective SMART",
+    "objectivesNote": "Specifice · Măsurabile · Abordabile · Relevante · în Timp",
+    "objectives": [
+      {
+        "tag": "Specific",
+        "title": "Informare și clarificare",
+        "objective": "Identificarea și explicarea principalelor forme de bullying (fizic, verbal, social și cyberbullying) prin intermediul a cel puțin 5 resurse educaționale (articole, infografice sau prezentări) postate pe portofoliu.",
+        "meta": "Timp: în primele 4 săptămâni de proiect."
+      },
+      {
+        "tag": "Măsurabil",
+        "title": "Dezvoltarea empatiei",
+        "objective": "Crearea și distribuirea unui chestionar de evaluare a climatului școlar pentru un grup de cel puțin 30 de elevi, pentru a măsura nivelul de empatie și incidența comportamentelor agresive.",
+        "meta": "Timp: pe parcursul unui semestru școlar."
+      },
+      {
+        "tag": "Abordabil",
+        "title": "Intervenție și suport",
+        "objective": "Elaborarea unui ghid practic de „Prim Ajutor Emoțional” care să conțină 5 tehnici de coping pentru victimele bullying-ului și 3 strategii de gestionare a furiei pentru agresori.",
+        "meta": "Timp: până la finalizarea cercetării actuale."
+      },
+      {
+        "tag": "Relevant",
+        "title": "Relevanță socială",
+        "objective": "Organizarea sau propunerea unei sesiuni de consiliere de grup (online sau fizic) care să abordeze citatul central: „O viață nu valorează nimic – nimic nu valorează cât o viață”, subliniind valoarea intrinsecă a fiecărui copil.",
+        "meta": "Relevanță: esențial pentru reducerea riscului de abandon școlar și depresie."
+      },
+      {
+        "tag": "în Timp",
+        "title": "Monitorizarea impactului",
+        "objective": "Evaluarea impactului informațiilor prezentate în portofoliu prin colectarea a cel puțin 10 mărturii sau feedback-uri de la vizitatori (elevi sau colegi) până la sfârșitul anului academic.",
+        "meta": "Timp: până la sfârșitul anului academic."
+      }
+    ]
+  },
+  "students": {
+    "heroTitle": "Ești mai puternic decât crezi. Bine ai venit!",
+    "heroSubtitle": "Acesta este spațiul tău de siguranță — explorează-l cu încredere.",
+    "letterTitle": "Citește scrisoarea mea pentru tine",
+    "letter": {
+      "greeting": "Bun venit în spațiul tău de siguranță!",
+      "p1": "Salut! Mă bucur că ai ajuns aici. Acest colț de internet a fost creat special pentru tine. Știu că uneori școala sau grupul de prieteni pot deveni locuri complicate, iar bullying-ul te poate face să te simți singur sau neînțeles. Vreau să știi că aici vocea ta contează.",
+      "p2": "Nu ești singur/ă în această poveste. Aici vei găsi sfaturi despre cum să devii mai puternic/ă, cum să-i ajuți pe alții și, cel mai important, vei învăța că o viață nu valorează nimic – nimic nu valorează cât o viață, adică viața TA este cel mai prețios lucru. Explorează cu încredere!"
+    },
+    "videosTitle": "Vizionează filmulețe scurte",
+    "videosDesc": "📢 Vizionează filmulețe scurte care te vor ajuta să înțelegi corect situația, să o poți aprecia și să știi cum reacționezi în continuare. Alege filmulețul care rezonează cu tine, ținând cont de câți ani ai. 🎞️",
+    "game1Title": "Învață prin joc",
+    "game1Desc": "📌 Te pot ajuta să înțelegi mai bine noțiunea de Bulling prin joc. Urmează pașii de mai jos… 🌟",
+    "game2Title": "Bulling sau prietenie?",
+    "game2Desc": "🧲 Dacă ți-a plăcut experiența de mai sus, hai să mai exersăm prin joc… 🪂",
+    "instructionsTitle": "Instrucțiuni",
+    "game1Instructions": [
+      "Citește întrebarea",
+      "Gândește-te la răspuns",
+      "Apasă pe cartonaș să vezi dacă ai răspuns corect…"
+    ],
+    "game2Instructions": [
+      "Citește situația",
+      "Decide: este bulling sau prietenie?",
+      "Trage cartonașul în coloana potrivită…"
+    ],
+    "quote": "Dacă ești diferit, înseamnă că ai ceva special de oferit lumii. Nu încerca să te integrezi într-o mulțime care nu te merită.",
+    "affirm1": "FII PUTERNIC!",
+    "affirm2": "AI ÎNCREDERE ÎN TINE!",
+    "galleryTitle": "Cum poate arăta bullying-ul",
+    "gallery": {
+      "hero": "Un copil care stă singur pe holul școlii",
+      "fingers": "Un copil înconjurat de degete arătătoare",
+      "filming": "Un copil filmat și batjocorit de colegi",
+      "girls": "O fată luată în râs de un grup",
+      "stop": "Un copil care ridică mâna pe care scrie „stop”",
+      "illustration": "Ilustrație cu un copil luat în râs"
+    }
+  },
+  "parents": {
+    "title": "Pentru părinți",
+    "welcome": "Bine ai venit! Citește scrisoarea de intenție.",
+    "quote": "Un copil care se simte iubit și respectat acasă va avea rar nevoia să rănească pe cineva la școală și va avea mereu curajul să ceară ajutor dacă este rănit.",
+    "letterAlt": "O scrisoare deschisă pentru părinți, semnată „Cu drag, Buga Victoria”",
+    "resourcesTitle": "Ghiduri și resurse de descărcat",
+    "closing": "Nimeni nu este asigurat că propriul copil nu va fi de partea negativă — nu dispera, îl poți ajuta oricând.",
+    "docs": {
+      "doc_phase": {
+        "title": "„E doar o fază” sau e Bullying? — Cum descifrăm tăcerea copilului",
+        "desc": "🚑 Un ghid despre cum acorzi ajutor rapid fără să dăunezi copilului tău. Citește-l mai întâi."
+      },
+      "doc_24h": {
+        "title": "Planul de 24 de ore PENTRU PĂRINȚI",
+        "desc": "Plan de acțiuni pentru prima zi după bulling. Primele 24 de ore sunt esențiale — citește atent și alege clar cum să reacționezi prompt, în beneficiul copilului tău."
+      },
+      "doc_my_child": {
+        "title": "Copilul meu e cel care agresează",
+        "desc": "„Suntem părinți, nu suntem perfecți. Cum ne ajutăm copiii să devină mai buni?”"
+      },
+      "doc_activities": {
+        "title": "Activități pentru copii care agresează",
+        "desc": "Încearcă aceste activități și fii alături de el. Susținerea e cea mai importantă etapă în acest context — poți transforma morala în jocuri atractive și cu rezultat rapid."
+      }
+    }
+  },
+  "teachers": {
+    "title": "Pentru cadre didactice",
+    "welcome": "Bine ai venit pe pagina creată pentru tine, drag profesor!",
+    "intro": "Cu deosebit respect, Buga Victoria, psiholog.",
+    "highlight": "Realizează o oră mai deosebită cu elevii tăi!",
+    "resourcesTitle": "Materiale și ghiduri de descărcat",
+    "docs": {
+      "doc_respect": {
+        "title": "Cu deosebit respect — Buga Victoria, psiholog",
+        "desc": "Un mesaj personal de bun venit pentru cadrele didactice care vizitează această pagină."
+      },
+      "doc_stop": {
+        "title": "Stop bullying — cunosc, înțeleg, aplic",
+        "desc": "Un ghid cu tehnici de lucru în situații de bulling, la clasă."
+      },
+      "doc_for_teachers": {
+        "title": "Bullying — pentru cadrele didactice",
+        "desc": "O prezentare gata de folosit pentru a realiza o oră deosebită cu elevii tăi."
+      },
+      "doc_self_confidence": {
+        "title": "Bullying vs Încrederea în sine",
+        "desc": "O prezentare despre construirea încrederii în sine ca antidot împotriva bullying-ului."
+      }
+    }
+  },
+  "evaluation": {
+    "title": "Evaluare proiect",
+    "subtitle": "Părerea ta contează",
+    "intro": "Acest proiect crește prin vocea ta. Împărtășește o mărturie, o impresie sau o sugestie — feedback-ul tău ajută la măsurarea impactului proiectului și la îmbunătățirea resurselor pentru elevi, părinți și cadre didactice.",
+    "formTitle": "Lasă-ți feedback-ul",
+    "name": "Numele tău",
+    "namePlaceholder": "Cum să mă adresez?",
+    "role": "Sunt…",
+    "roles": {
+      "student": "Elev",
+      "parent": "Părinte",
+      "teacher": "Cadru didactic",
+      "other": "Altceva"
+    },
+    "message": "Mesajul tău",
+    "messagePlaceholder": "Scrie aici impresia, mărturia sau sugestia ta…",
+    "send": "Trimite feedback",
+    "note": "Butonul deschide aplicația ta de email cu mesajul gata de trimis către Buga Victoria.",
+    "directContact": "Preferi să scrii direct?"
+  },
+  "footer": {
+    "blurb": "Un proiect educațional anti-bullying care oferă instrumente validate științific pentru elevi, părinți și cadre didactice.",
+    "quickLinks": "Pagini",
+    "audiences": "Pentru cine",
+    "contact": "Contact",
+    "license": "Portofoliu Bulling © {{year}} de Buga Victoria",
+    "licensedUnder": "Licențiat sub CC BY 4.0",
+    "builtWith": "Reconstruit ca aplicație web modernă și accesibilă."
+  },
+  "notFound": {
+    "title": "Pagina nu a fost găsită",
+    "desc": "Pagina pe care o cauți nu există.",
+    "cta": "Înapoi acasă"
+  }
+}

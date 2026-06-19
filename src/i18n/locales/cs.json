@@ -1,0 +1,259 @@
+{
+  "site": {
+    "name": "Buga Victoria",
+    "role": "Psycholožka",
+    "tagline": "Společně zastavíme šikanu",
+    "projectName": "Portfolio o šikaně"
+  },
+  "nav": {
+    "home": "Domů",
+    "about": "O mně",
+    "project": "Projekt",
+    "students": "Žáci",
+    "parents": "Rodiče",
+    "teachers": "Učitelé",
+    "evaluation": "Hodnocení",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu",
+    "language": "Jazyk",
+    "audiences": "Pro koho"
+  },
+  "common": {
+    "readMore": "Číst dále",
+    "download": "Stáhnout",
+    "open": "Otevřít",
+    "openInDrive": "Otevřít v Google Disku",
+    "viewPresentation": "Otevřít prezentaci",
+    "backToTop": "Nahoru",
+    "email": "E-mail",
+    "writeToMe": "Napište mi",
+    "explore": "Prozkoumat"
+  },
+  "docType": {
+    "pdf": "Dokument PDF",
+    "docx": "Dokument Word",
+    "pptx": "Prezentace"
+  },
+  "home": {
+    "heroTagline": "Společně zastavíme šikanu",
+    "heroTitle": "Šikana srozumitelně pro všechny",
+    "heroSubtitle": "Vzdělávací projekt proti šikaně od Bugy Victorie, psycholožky — praktické, vědecky podložené nástroje pro žáky, rodiče i učitele.",
+    "heroCtaPrimary": "Prozkoumat projekt",
+    "heroCtaSecondary": "Zhlédnout prezentaci",
+    "presentationTitle": "Šikana srozumitelně pro všechny",
+    "presentationDesc": "Krátká prezentace, která představuje projekt a jeho hlavní poselství — pro děti i pro všechny, kterým na nich záleží.",
+    "audienceTitle": "Kam patříte vy?",
+    "audienceSubtitle": "Vyberte si svůj prostor. Každý zdroj je připraven právě pro vás.",
+    "audiences": {
+      "student": {
+        "tag": "Jsem ŽÁK",
+        "desc": "Jsi silnější, než si myslíš. Objev videa, hry a dopis napsaný přímo pro tebe.",
+        "cta": "Vstoupit do prostoru pro žáky"
+      },
+      "parent": {
+        "tag": "Jsem RODIČ",
+        "desc": "Příručky a plán prvních 24 hodin, které vám pomohou chránit a podpořit vaše dítě.",
+        "cta": "Vstoupit do prostoru pro rodiče"
+      },
+      "teacher": {
+        "tag": "Jsem UČITEL",
+        "desc": "Praktické techniky a výukové materiály pro vytvoření bezpečné třídy.",
+        "cta": "Vstoupit do prostoru pro učitele"
+      }
+    },
+    "missionTitle": "Moje poslání",
+    "missionIntro": "„Šikana srozumitelně pro všechny“ není jen název — je to osobní poslání.",
+    "quote": "Život sám o sobě nemá cenu – ale nic nemá takovou cenu jako život."
+  },
+  "mission": {
+    "prevent": {
+      "title": "Předcházet",
+      "desc": "Pochopení psychologických kořenů agresora i oběti je prvním krokem k přerušení tohoto kruhu."
+    },
+    "protect": {
+      "title": "Chránit",
+      "desc": "Děti a dospívající potřebují zdravé způsoby zvládání zátěže a vědecky ověřený systém podpory."
+    },
+    "educate": {
+      "title": "Vzdělávat",
+      "desc": "Věřím, že správnou informovaností můžeme proměnit pasivní „přihlížející“ v aktivní spojence zranitelných."
+    }
+  },
+  "about": {
+    "title": "O mně",
+    "subtitle": "Kdo jsem?",
+    "intro": "Jsem Buga Victoria — dcera, psycholožka, manželka, matka, kolegyně, kamarádka…",
+    "body": "Rozhodla jsem se stát psycholožkou z hlubokého přesvědčení, že každý člověk si zaslouží být vyslyšen, pochopen a podpořen na své cestě růstu. Ve stále hlučnějším světě jsem pocítila potřebu vytvořit prostor klidu a bezpečí pro lidskou duši. Fascinace mechanismy mysli a touha proměnit utrpení v odolnost mě dovedly k tomuto povolání, které je v podstatě uměním lidského spojení.",
+    "whyTitle": "Proč zkoumám fenomén šikany?",
+    "whyIntro": "Téma šikany jsem si pro svůj výzkum vybrala proto, že je podle mě jednou z nejzávažnějších výzev dnešního vzdělávacího a sociálního prostředí. „Šikana srozumitelně pro všechny“ není jen název, ale osobní poslání:",
+    "quote": "Život sám o sobě nemá cenu – ale nic nemá takovou cenu jako život.",
+    "quoteCaption": "Tento citát vystihuje podstatu mé práce: boj za důstojnost a rovnováhu každého člověka, který překročí práh ordinace nebo je součástí naší komunity.",
+    "portraitAlt": "Černobílý portrét matky držící své usměvavé dítě"
+  },
+  "project": {
+    "title": "Projekt",
+    "subtitle": "Šikana srozumitelně pro všechny",
+    "whyTitle": "Proč zkoumám fenomén šikany?",
+    "whyIntro": "Téma šikany jsem si pro svůj výzkum vybrala proto, že je podle mě jednou z nejzávažnějších výzev dnešního vzdělávacího a sociálního prostředí. „Šikana srozumitelně pro všechny“ není jen název, ale osobní poslání:",
+    "goalTitle": "Cíl projektu",
+    "goal": "Cílem tohoto projektu je zvyšovat povědomí o šikaně, předcházet jí a potírat ji mezi žáky a mladými lidmi, a to nabídnutím psychologických nástrojů dostupných všem zúčastněným: obětem, agresorům, rodičům i učitelům. Projekt usiluje o proměnu vzdělávacího prostředí v bezpečný prostor založený na empatii a vzájemné úctě.",
+    "objectivesTitle": "Cíle SMART",
+    "objectivesNote": "Specifické · Měřitelné · Dosažitelné · Relevantní · Časově ohraničené",
+    "objectives": [
+      {
+        "tag": "Specifické",
+        "title": "Informovat a objasnit",
+        "objective": "Identifikovat a vysvětlit hlavní formy šikany (fyzickou, verbální, sociální a kyberšikanu) prostřednictvím nejméně 5 vzdělávacích zdrojů (článků, infografik nebo prezentací) zveřejněných v portfoliu.",
+        "meta": "Termín: během prvních 4 týdnů projektu."
+      },
+      {
+        "tag": "Měřitelné",
+        "title": "Rozvíjet empatii",
+        "objective": "Vytvořit a rozeslat dotazník hodnotící klima ve škole pro skupinu nejméně 30 žáků a změřit úroveň empatie a výskyt agresivního chování.",
+        "meta": "Termín: v průběhu jednoho školního pololetí."
+      },
+      {
+        "tag": "Dosažitelné",
+        "title": "Zasáhnout a podpořit",
+        "objective": "Vypracovat praktickou příručku „Emoční první pomoc“ obsahující 5 technik zvládání pro oběti šikany a 3 strategie zvládání hněvu pro agresory.",
+        "meta": "Termín: do dokončení současného výzkumu."
+      },
+      {
+        "tag": "Relevantní",
+        "title": "Společenská relevance",
+        "objective": "Uspořádat nebo navrhnout skupinové poradenské setkání (online nebo osobně) zaměřené na ústřední citát: „Život sám o sobě nemá cenu – nic nemá takovou cenu jako život“, zdůrazňující vnitřní hodnotu každého dítěte.",
+        "meta": "Relevance: zásadní pro snížení rizika předčasného ukončení školní docházky a deprese."
+      },
+      {
+        "tag": "Časově ohraničené",
+        "title": "Sledovat dopad",
+        "objective": "Vyhodnotit dopad informací uvedených v portfoliu shromážděním nejméně 10 svědectví nebo zpětných vazeb od návštěvníků (žáků nebo kolegů) do konce akademického roku.",
+        "meta": "Termín: do konce akademického roku."
+      }
+    ]
+  },
+  "students": {
+    "heroTitle": "Jsi silnější, než si myslíš. Vítej!",
+    "heroSubtitle": "Toto je tvůj bezpečný prostor — prozkoumej ho s důvěrou.",
+    "letterTitle": "Přečti si můj dopis pro tebe",
+    "letter": {
+      "greeting": "Vítej ve svém bezpečném prostoru!",
+      "p1": "Ahoj! Mám velkou radost, že ses sem dostal/a. Tento koutek internetu vznikl právě pro tebe. Vím, že škola nebo parta kamarádů se někdy mohou stát složitými místy a šikana tě může nutit cítit se osamělý/á nebo nepochopený/á. Chci, abys věděl/a, že tady tvůj hlas znamená hodně.",
+      "p2": "V tomto příběhu nejsi sám/sama. Najdeš tu rady, jak se stát silnějším/silnější, jak pomáhat ostatním a — co je nejdůležitější — naučíš se, že život sám o sobě nemá cenu, ale nic nemá takovou cenu jako život; to znamená, že TVŮJ život je to nejcennější. Prozkoumávej s důvěrou!"
+    },
+    "videosTitle": "Podívej se na krátká videa",
+    "videosDesc": "📢 Podívej se na krátká videa, která ti pomohou správně pochopit situaci, posoudit ji a vědět, jak dál reagovat. Vyber si video, které ti je blízké, podle toho, kolik ti je let. 🎞️",
+    "game1Title": "Uč se hrou",
+    "game1Desc": "📌 Můžu ti pomoci lépe pochopit pojem šikana — pomocí hry. Postupuj podle kroků níže… 🌟",
+    "game2Title": "Šikana, nebo přátelství?",
+    "game2Desc": "🧲 Pokud se ti zážitek výše líbil, pojďme procvičovat dál pomocí hry… 🪂",
+    "instructionsTitle": "Pokyny",
+    "game1Instructions": [
+      "Přečti si otázku",
+      "Zamysli se nad odpovědí",
+      "Klepni na kartičku a zjisti, zda jsi odpověděl/a správně…"
+    ],
+    "game2Instructions": [
+      "Přečti si situaci",
+      "Rozhodni se: je to šikana, nebo přátelství?",
+      "Přetáhni kartičku do správného sloupce…"
+    ],
+    "quote": "Když jsi jiný, znamená to, že máš světu co nabídnout. Nesnaž se zapadnout do davu, který si tě nezaslouží.",
+    "affirm1": "BUĎ SILNÝ/SILNÁ!",
+    "affirm2": "VĚŘ SÁM/SAMA SOBĚ!",
+    "galleryTitle": "Jak může šikana vypadat",
+    "gallery": {
+      "hero": "Dítě sedící samo na školní chodbě",
+      "fingers": "Dítě obklopené ukazujícími prsty",
+      "filming": "Dítě, které spolužáci natáčejí a vysmívají se mu",
+      "girls": "Dívka, které se vysmívá skupina",
+      "stop": "Dítě zvedající dlaň s nápisem „stop“",
+      "illustration": "Ilustrace dítěte, kterému se ostatní vysmívají"
+    }
+  },
+  "parents": {
+    "title": "Pro rodiče",
+    "welcome": "Vítejte! Přečtěte si úvodní dopis.",
+    "quote": "Dítě, které se doma cítí milované a respektované, bude jen zřídka potřebovat někomu ve škole ublížit — a vždy bude mít odvahu požádat o pomoc, pokud bude zraněno.",
+    "letterAlt": "Otevřený dopis rodičům, podepsaný „S láskou, Buga Victoria“",
+    "resourcesTitle": "Příručky a zdroje ke stažení",
+    "closing": "Nikdo nemá jistotu, že jeho vlastní dítě neskončí na té negativní straně — nezoufejte, vždy mu můžete pomoci.",
+    "docs": {
+      "doc_phase": {
+        "title": "„Je to jen fáze“, nebo je to šikana? — Jak rozluštit mlčení dítěte",
+        "desc": "🚑 Příručka, jak rychle pomoci, aniž byste svému dítěti ublížili. Přečtěte si ji jako první."
+      },
+      "doc_24h": {
+        "title": "Plán prvních 24 hodin PRO RODIČE",
+        "desc": "Plán postupu pro první den po šikaně. Prvních 24 hodin je klíčových — čtěte pozorně a jasně si vyberte, jak pohotově reagovat ve prospěch svého dítěte."
+      },
+      "doc_my_child": {
+        "title": "Moje dítě je tím, kdo šikanuje",
+        "desc": "„Jsme rodiče, ne dokonalí. Jak pomoci svým dětem stát se lepšími?“"
+      },
+      "doc_activities": {
+        "title": "Aktivity pro děti, které šikanují",
+        "desc": "Vyzkoušejte tyto aktivity a buďte u toho s ním. Podpora je v tomto kontextu nejdůležitější fází — morální ponaučení lze proměnit v poutavé hry s rychlým výsledkem."
+      }
+    }
+  },
+  "teachers": {
+    "title": "Pro učitele",
+    "welcome": "Vítejte na stránce vytvořené právě pro vás, milý učiteli!",
+    "intro": "S hlubokou úctou, Buga Victoria, psycholožka.",
+    "highlight": "Připravte se svými žáky opravdu výjimečnou hodinu!",
+    "resourcesTitle": "Materiály a příručky ke stažení",
+    "docs": {
+      "doc_respect": {
+        "title": "S hlubokou úctou — Buga Victoria, psycholožka",
+        "desc": "Osobní uvítací vzkaz pro učitele, kteří navštíví tuto stránku."
+      },
+      "doc_stop": {
+        "title": "Stop šikaně — znám, chápu, používám",
+        "desc": "Příručka s technikami práce v situacích šikany ve třídě."
+      },
+      "doc_for_teachers": {
+        "title": "Šikana — pro učitele",
+        "desc": "Hotová prezentace pro vedení smysluplné hodiny s vašimi žáky."
+      },
+      "doc_self_confidence": {
+        "title": "Šikana vs. sebedůvěra",
+        "desc": "Prezentace o budování sebedůvěry jako protijedu proti šikaně."
+      }
+    }
+  },
+  "evaluation": {
+    "title": "Hodnocení projektu",
+    "subtitle": "Na vašem názoru záleží",
+    "intro": "Tento projekt roste díky vašemu hlasu. Podělte se o svědectví, dojem nebo návrh — vaše zpětná vazba pomáhá měřit dopad projektu a zlepšovat zdroje pro žáky, rodiče i učitele.",
+    "formTitle": "Zanechte zpětnou vazbu",
+    "name": "Vaše jméno",
+    "namePlaceholder": "Jak vás mám oslovovat?",
+    "role": "Jsem…",
+    "roles": {
+      "student": "Žák",
+      "parent": "Rodič",
+      "teacher": "Učitel",
+      "other": "Jiné"
+    },
+    "message": "Vaše zpráva",
+    "messagePlaceholder": "Napište sem svůj dojem, svědectví nebo návrh…",
+    "send": "Odeslat zpětnou vazbu",
+    "note": "Tlačítko otevře vaši e-mailovou aplikaci se zprávou připravenou k odeslání Buze Victorii.",
+    "directContact": "Raději píšete přímo?"
+  },
+  "footer": {
+    "blurb": "Vzdělávací projekt proti šikaně, který nabízí vědecky podložené nástroje pro žáky, rodiče i učitele.",
+    "quickLinks": "Stránky",
+    "audiences": "Pro koho",
+    "contact": "Kontakt",
+    "license": "Portfolio o šikaně © {{year}} Buga Victoria",
+    "licensedUnder": "Licencováno pod CC BY 4.0",
+    "builtWith": "Přestavěno jako moderní a přístupná webová aplikace."
+  },
+  "notFound": {
+    "title": "Stránka nenalezena",
+    "desc": "Stránka, kterou hledáte, neexistuje.",
+    "cta": "Zpět na úvod"
+  }
+}
