@@ -148,9 +148,6 @@ export default function Home() {
       </section>
 
       {/* Quote + contact */}
-      <section className="container-page pb-8">
-        <QuoteBlock>{t('home.quote')}</QuoteBlock>
-      </section>
       <section className="container-page py-12">
         <div className="flex flex-col items-center justify-between gap-6 rounded-4xl bg-brand-900 px-8 py-10 text-center text-white sm:flex-row sm:text-left">
           <div>

@@ -419,6 +419,11 @@
       { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smiev" },
       { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-moț" }
     ],
+    "galleryTitle": "Documentare vizuală",
+    "gallerySubtitle": "Momente din activitățile comune ale copiilor din Moldova și Cehia.",
+    "videosLabel": "Videoclipuri din proiect",
+    "photosLabel": "Galerie foto",
+    "photoAlt": "Activitate din proiectul Moldova × Cehia",
     "docsTitle": "Prezentările proiectului",
     "closing": "În acest proiect alegem să fim eroi ai bunătății, nu spectatori ai răutății. Dacă vezi bullying — nu tăcea, fii un prieten adevărat! Împreună construim o școală a prieteniei.",
     "thanks": "Mulțumim · Děkujeme · Thank You"

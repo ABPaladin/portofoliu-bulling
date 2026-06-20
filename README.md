@@ -8,12 +8,14 @@ application with full **English / Romanian / Czech** internationalization.
 
 ## ✨ Features
 
-- **Vite + React 18** SPA with `react-router-dom` (hash routing — deploys anywhere, no server config).
+- **Vite + React 18** SPA with `react-router-dom` (`BrowserRouter`, clean URLs — `vercel.json` rewrites every path to `index.html`).
 - **Tailwind CSS** design system (green brand palette from the original dove logo), mobile-first & responsive.
 - **react-i18next** with EN / RO / CS, language selector in the navbar, choice **persisted in `localStorage`**, default **English**.
-- Reusable components (`Navbar`, `Footer`, `DocumentCard`, `AudienceCard`, `MissionPillars`, `QuoteBlock`, `PageHero`, …).
-- All content, images, the embedded Google Slides presentation and the 8 Google Drive documents from the export are preserved.
-- Images optimized (≈15.6 MB → ≈1.4 MB) and lazy-loaded; accessibility built in (skip link, focus rings, semantic landmarks, alt text, `prefers-reduced-motion`).
+- Reusable components (`Navbar`, `Footer`, `DocumentCard`, `AudienceCard`, `MissionPillars`, `QuoteBlock`, `PageHero`, `Quiz`, …).
+- A dedicated **Moldova × Czech Republic collaboration** page ("Unitate prin Diversitate") with project photo gallery + videos.
+- An **interactive knowledge quiz** on the Evaluation page (scoring + per-question feedback), plus a mailto feedback form.
+- The students' page embeds **5 YouTube videos + 2 Padlet games**; teachers/parents pages keep the original Drive documents + local project files (`/public/docs`).
+- Images optimized and lazy-loaded; accessibility built in (skip link, focus rings, semantic landmarks, alt text, `prefers-reduced-motion`).
 
 ## 🚀 Getting started
 
@@ -37,11 +39,14 @@ npm run preview
 buga-victoria-site/
 ├── index.html                 # App shell, fonts, favicon, meta
 ├── package.json               # Dependencies & scripts
-├── vite.config.js             # Vite config (relative base for any host)
+├── vite.config.js             # Vite config (base '/')
+├── vercel.json                # Vercel build + SPA rewrite for BrowserRouter
 ├── tailwind.config.js         # Brand palette, fonts, animations
 ├── postcss.config.js
+├── public/
+│   └── docs/                  # Local project files (PDF/PPTX) served as-is
 └── src/
-    ├── main.jsx               # Entry point + HashRouter + i18n bootstrap
+    ├── main.jsx               # Entry point + BrowserRouter + i18n bootstrap
     ├── App.jsx                # Routes
     ├── index.css              # Tailwind layers + base styles
     ├── assets/                # Optimized images (hashed by Vite)
@@ -55,13 +60,15 @@ buga-victoria-site/
     │   ├── SectionHeading.jsx
     │   ├── MissionPillars.jsx # Prevent / Protect / Educate
     │   ├── AudienceCard.jsx
-    │   ├── DocumentCard.jsx   # Drive PDF/DOCX/PPTX cards
+    │   ├── DocumentCard.jsx   # PDF/DOCX/PPTX cards (Drive + local)
     │   ├── QuoteBlock.jsx
+    │   ├── Quiz.jsx           # Interactive scored knowledge quiz
     │   └── ScrollToTop.jsx
     ├── data/
     │   ├── navigation.js      # Single source of truth for pages
-    │   ├── resources.js       # Drive doc IDs, presentation, contact
-    │   └── assets.js          # Image registry
+    │   ├── resources.js       # Drive/local doc + presentation + contact
+    │   ├── media.js           # Students' YouTube videos + Padlet games
+    │   └── assets.js          # Image registry (+ Czech project photos/videos)
     ├── i18n/
     │   ├── index.js           # i18next config (localStorage + navigator)
     │   └── locales/
@@ -70,12 +77,13 @@ buga-victoria-site/
     │       └── cs.json        # Czech
     └── pages/
         ├── Home.jsx
-        ├── About.jsx          # "Despre mine"
-        ├── Project.jsx        # SMART objectives
-        ├── ForStudents.jsx    # Letter, videos, games, gallery
-        ├── ForParents.jsx     # Guides to download
-        ├── ForTeachers.jsx    # Materials to download
-        ├── Evaluation.jsx     # Feedback form (mailto, no backend)
+        ├── About.jsx               # "Despre mine"
+        ├── Project.jsx             # SMART objectives + real outcomes
+        ├── CzechCollaboration.jsx  # Moldova × Czech partnership + media
+        ├── ForStudents.jsx         # Letter, YouTube videos, Padlet games, gallery
+        ├── ForParents.jsx          # Letter of intent + guides to download
+        ├── ForTeachers.jsx         # Materials to download (Drive + local)
+        ├── Evaluation.jsx          # Knowledge quiz + mailto feedback form
         └── NotFound.jsx
 ```
 
@@ -109,5 +117,7 @@ buga-victoria-site/
 
 ## 🛠️ Deployment
 
-`npm run build` outputs a static `dist/` folder. Because routing uses `HashRouter` and Vite `base: './'`,
-it works on GitHub Pages, Netlify, Vercel, or by simply uploading `dist/` to any static host.
+`npm run build` outputs a static `dist/` folder. The app is configured for **Vercel** (`vercel.json`
+sets the Vite build + an SPA rewrite so deep links and refresh work with the clean `BrowserRouter` URLs).
+Connect the repo to Vercel (or run `vercel --prod`); a custom domain (e.g. from Namecheap) can be added in
+the project's **Settings → Domains**.

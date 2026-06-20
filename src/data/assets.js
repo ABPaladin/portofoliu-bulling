@@ -35,3 +35,19 @@ export const img = {
   parentsTender,
   teachersWelcome,
 }
+
+// Photos & videos from the Moldova × Czech project (folder: src/assets/poze proiect).
+// import.meta.glob picks them all up automatically — drop new files in and they appear.
+const photoModules = import.meta.glob('../assets/poze proiect/*.jpg', {
+  eager: true,
+  import: 'default',
+})
+const videoModules = import.meta.glob('../assets/poze proiect/*.mp4', {
+  eager: true,
+  import: 'default',
+})
+
+const byNumericPath = ([a], [b]) => a.localeCompare(b, undefined, { numeric: true })
+
+export const czechPhotos = Object.entries(photoModules).sort(byNumericPath).map(([, src]) => src)
+export const czechVideos = Object.entries(videoModules).sort(byNumericPath).map(([, src]) => src)

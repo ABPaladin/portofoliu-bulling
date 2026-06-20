@@ -419,6 +419,11 @@
       { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smjev" },
       { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-mots" }
     ],
+    "galleryTitle": "Obrazová dokumentace",
+    "gallerySubtitle": "Okamžiky ze společných aktivit dětí z Moldavska a Česka.",
+    "videosLabel": "Videa z projektu",
+    "photosLabel": "Fotogalerie",
+    "photoAlt": "Aktivita z projektu Moldavsko × Česká republika",
     "docsTitle": "Prezentace projektu",
     "closing": "V tomto projektu se rozhodujeme být hrdiny laskavosti, ne diváky krutosti. Když vidíš šikanu — nemlč, buď opravdový kamarád! Společně budujeme školu přátelství.",
     "thanks": "Mulțumim · Děkujeme · Thank You"

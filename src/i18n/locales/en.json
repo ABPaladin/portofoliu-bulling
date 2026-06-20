@@ -419,6 +419,11 @@
       { "ro": "ZÂMBET", "cz": "ÚSMĚV", "pron": "U-smiev" },
       { "ro": "AJUTOR", "cz": "POMOC", "pron": "Po-mots" }
     ],
+    "galleryTitle": "Visual documentation",
+    "gallerySubtitle": "Moments from the joint activities of the children in Moldova and the Czech Republic.",
+    "videosLabel": "Videos from the project",
+    "photosLabel": "Photo gallery",
+    "photoAlt": "Activity from the Moldova × Czech Republic project",
     "docsTitle": "Project presentations",
     "closing": "In this project we choose to be heroes of kindness, not spectators of cruelty. If you see bullying — don't stay silent, be a true friend! Together we build a school of friendship.",
     "thanks": "Mulțumim · Děkujeme · Thank you"
