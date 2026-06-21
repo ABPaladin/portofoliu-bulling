@@ -1,12 +1,10 @@
-import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowRight, PlayCircle, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import SectionHeading from '../components/SectionHeading.jsx'
 import AudienceCard from '../components/AudienceCard.jsx'
 import MissionPillars from '../components/MissionPillars.jsx'
-import QuoteBlock from '../components/QuoteBlock.jsx'
 import { img } from '../data/assets'
-import { presentation, CONTACT_EMAIL } from '../data/resources'
+import { CONTACT_EMAIL } from '../data/resources'
 
 export default function Home() {
   const { t } = useTranslation()
@@ -64,58 +62,40 @@ export default function Home() {
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-50/95 drop-shadow-sm">
               {t('home.heroSubtitle')}
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                to="/project"
-                className="btn bg-white text-brand-700 shadow-soft hover:-translate-y-0.5 hover:bg-brand-50"
-              >
-                {t('home.heroCtaPrimary')}
-                <ArrowRight className="h-4 w-4" aria-hidden="true" />
-              </Link>
-              <a
-                href={presentation.present}
-                target="_blank"
-                rel="noreferrer"
-                className="btn border-2 border-white/70 text-white hover:bg-white/10"
-              >
-                <PlayCircle className="h-5 w-5" aria-hidden="true" />
-                {t('home.heroCtaSecondary')}
-              </a>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* Presentation */}
+      {/* Personal note — a mother of three */}
       <section className="container-page py-16 sm:py-24">
-        <SectionHeading
-          eyebrow={t('site.projectName')}
-          title={t('home.presentationTitle')}
-          subtitle={t('home.presentationDesc')}
-          center
-          className="mb-10"
-        />
-        <div className="mx-auto max-w-4xl overflow-hidden rounded-4xl bg-slate-900 shadow-soft ring-1 ring-black/5">
-          <div className="aspect-video">
-            <iframe
-              src={presentation.embed}
-              title={t('home.presentationTitle')}
-              className="h-full w-full"
-              allowFullScreen
-              loading="lazy"
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+          <div className="relative">
+            <div className="overflow-hidden rounded-4xl shadow-soft ring-1 ring-black/5">
+              <img
+                src={img.homepageImage}
+                alt={t('home.motherImageAlt')}
+                className="aspect-[4/5] w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div
+              className="absolute -bottom-4 -left-4 -z-10 h-full w-full rounded-4xl bg-brand-200/50"
+              aria-hidden="true"
             />
           </div>
-        </div>
-        <div className="mt-6 text-center">
-          <a
-            href={presentation.present}
-            target="_blank"
-            rel="noreferrer"
-            className="btn-outline"
-          >
-            <PlayCircle className="h-5 w-5" aria-hidden="true" />
-            {t('common.viewPresentation')}
-          </a>
+
+          <div>
+            <p className="mb-2 text-sm font-semibold uppercase tracking-wider text-brand-600">
+              {t('home.motherEyebrow')}
+            </p>
+            <h2 className="font-display text-3xl font-bold text-brand-900 sm:text-4xl">
+              {t('home.motherHeading')}
+            </h2>
+            <div className="prose-content mt-6 text-lg">
+              <p>{t('home.motherP1')}</p>
+              <p className="font-semibold text-brand-800">{t('home.motherP2')}</p>
+            </div>
+          </div>
         </div>
       </section>
 

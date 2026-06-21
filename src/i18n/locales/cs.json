@@ -43,6 +43,11 @@
     "heroCtaSecondary": "Zhlédnout prezentaci",
     "presentationTitle": "Šikana srozumitelně pro všechny",
     "presentationDesc": "Krátká prezentace, která představuje projekt a jeho hlavní poselství — pro děti i pro všechny, kterým na nich záleží.",
+    "motherEyebrow": "Proč mi na tom záleží",
+    "motherHeading": "S duší odborníka a srdcem matky",
+    "motherP1": "Jsem matkou tří dětí a myšlenka, že by se některé z nich mohlo stát obětí ponižování, vylučování nebo citové agrese, mě motivuje tento jev pochopit a přispět k jeho prevenci. Každé dítě si zaslouží cítit se bezpečně, přijímané a respektované v prostředí, kde se učí a vyrůstá. Toto téma studuji s duší odborníka, ale i se srdcem matky. Přeji si, aby se žádné dítě necítilo osamělé, nevyslyšené nebo nechráněné.",
+    "motherP2": "Společně můžeme proměnit školu a komunitu v prostor, kde má každé dítě odvahu být samo sebou.",
+    "motherImageAlt": "Tři děti Bugy Victorie v jarním prostředí plném květin",
     "audienceTitle": "Kam patříte vy?",
     "audienceSubtitle": "Vyberte si svůj prostor. Každý zdroj je připraven právě pro vás.",
     "audiences": {
@@ -147,6 +152,15 @@
     "heroTitle": "Jsi silnější, než si myslíš. Vítej!",
     "heroSubtitle": "Toto je tvůj bezpečný prostor — prozkoumej ho s důvěrou.",
     "letterTitle": "Přečti si můj dopis pro tebe",
+    "letterSectionTitle": "Dopis pro žáky",
+    "letterImageAlt": "Ilustrovaný dopis pro žáky: „Vítej ve svém bezpečném prostoru! Ahoj! Mám velkou radost, že ses sem dostal/a…“",
+    "presentationTitle": "Prezentace pro žáky",
+    "docs": {
+      "doc_techniques": {
+        "title": "Techniky proti šikaně pro žáky",
+        "desc": "Prezentace s praktickými technikami, jak se chránit a klidně reagovat v situacích šikany."
+      }
+    },
     "letter": {
       "greeting": "Vítej ve svém bezpečném prostoru!",
       "p1": "Ahoj! Mám velkou radost, že ses sem dostal/a. Tento koutek internetu vznikl právě pro tebe. Vím, že škola nebo parta kamarádů se někdy mohou stát složitými místy a šikana tě může nutit cítit se osamělý/á nebo nepochopený/á. Chci, abys věděl/a, že tady tvůj hlas znamená hodně.",
@@ -233,6 +247,9 @@
     "welcome": "Vítejte na stránce vytvořené právě pro vás, milý učiteli!",
     "intro": "S hlubokou úctou, Buga Victoria, psycholožka.",
     "highlight": "Připravte se svými žáky opravdu výjimečnou hodinu!",
+    "presentationEyebrow": "Prezentace",
+    "presentationTitle": "Šikana srozumitelně pro všechny",
+    "presentationDesc": "Prezentace, která představuje projekt a jeho poselství — pro učitele i pro všechny, kterým záleží na dětech.",
     "resourcesTitle": "Materiály a příručky ke stažení",
     "docs": {
       "doc_respect": {

@@ -43,6 +43,11 @@
     "heroCtaSecondary": "Vezi prezentarea",
     "presentationTitle": "Bullying-ul pe înțelesul tuturor",
     "presentationDesc": "O prezentare scurtă care introduce proiectul și mesajul său — pentru copii și pentru toți cei cărora le pasă de ei.",
+    "motherEyebrow": "De ce îmi pasă",
+    "motherHeading": "Cu sufletul unui specialist și inima unei mame",
+    "motherP1": "Sunt mama a trei copii, iar gândul că unul dintre ei ar putea fi victima umilinței, excluderii sau agresiunii emoționale mă motivează să înțeleg acest fenomen și să contribui la prevenirea lui. Fiecare copil merită să se simtă în siguranță, acceptat și respectat în mediul în care învață și se dezvoltă. Studiez această temă cu sufletul unui specialist, dar și cu inima unei mame. Îmi doresc ca niciun copil să nu se simtă singur, neauzit sau neprotejat.",
+    "motherP2": "Împreună putem transforma școala și comunitatea într-un spațiu în care fiecare copil să aibă curajul să fie el însuși.",
+    "motherImageAlt": "Cei trei copii ai Victoriei Buga într-un decor primăvăratic plin de flori",
     "audienceTitle": "Tu unde te regăsești?",
     "audienceSubtitle": "Alege-ți spațiul. Fiecare resursă este gândită pentru tine.",
     "audiences": {
@@ -147,6 +152,15 @@
     "heroTitle": "Ești mai puternic decât crezi. Bine ai venit!",
     "heroSubtitle": "Acesta este spațiul tău de siguranță — explorează-l cu încredere.",
     "letterTitle": "Citește scrisoarea mea pentru tine",
+    "letterSectionTitle": "Scrisoare pentru elevi",
+    "letterImageAlt": "Scrisoare ilustrată pentru elevi: „Bun venit în spațiul tău de siguranță! Salut! Mă bucur că ai ajuns aici…”",
+    "presentationTitle": "Prezentare pentru elevi",
+    "docs": {
+      "doc_techniques": {
+        "title": "Tehnici anti-bullying pentru elevi",
+        "desc": "O prezentare cu tehnici practice prin care te poți proteja și poți reacționa calm în situații de bullying."
+      }
+    },
     "letter": {
       "greeting": "Bun venit în spațiul tău de siguranță!",
       "p1": "Salut! Mă bucur că ai ajuns aici. Acest colț de internet a fost creat special pentru tine. Știu că uneori școala sau grupul de prieteni pot deveni locuri complicate, iar bullying-ul te poate face să te simți singur sau neînțeles. Vreau să știi că aici vocea ta contează.",
@@ -233,6 +247,9 @@
     "welcome": "Bine ai venit pe pagina creată pentru tine, drag profesor!",
     "intro": "Cu deosebit respect, Buga Victoria, psiholog.",
     "highlight": "Realizează o oră mai deosebită cu elevii tăi!",
+    "presentationEyebrow": "Prezentare",
+    "presentationTitle": "Bullying-ul pe înțelesul tuturor",
+    "presentationDesc": "O prezentare care introduce proiectul și mesajul său — pentru cadrele didactice și pentru toți cei cărora le pasă de copii.",
     "resourcesTitle": "Materiale și ghiduri de descărcat",
     "docs": {
       "doc_respect": {

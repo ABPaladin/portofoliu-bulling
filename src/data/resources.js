@@ -34,6 +34,11 @@ export const teacherDocs = [
   { key: 'doc_self_confidence', type: 'pptx', ...driveUrls('1J40iJBkX7f6Hj3GEa4wRb-7lTIYKhXZn') },
 ]
 
+// Local presentation for the students' page.
+export const studentDocs = [
+  { key: 'doc_techniques', type: 'pptx', ...localUrls('anti-bullying-techniques-for-students.pptx') },
+]
+
 // The two presentations that document the Moldova × Czech Republic partnership.
 export const czechDocs = [projectDocs[1], projectDocs[2]]
 

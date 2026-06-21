@@ -1,6 +1,7 @@
 // Central image registry. Importing assets (rather than hard-coding /public
 // paths) lets Vite hash + optimize them and keeps URLs correct under any base.
 import logoBanner from '../assets/logo-banner.jpg'
+import homepageImage from '../assets/homepage-image.jpg'
 import homeStudent from '../assets/home-student.jpg'
 import homeParent from '../assets/home-parent.jpg'
 import homeTeacher from '../assets/home-teacher.jpg'
@@ -19,6 +20,7 @@ import teachersWelcome from '../assets/teachers-welcome.jpg'
 
 export const img = {
   logoBanner,
+  homepageImage,
   homeStudent,
   homeParent,
   homeTeacher,

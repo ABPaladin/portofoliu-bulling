@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
-import { Sparkles } from 'lucide-react'
+import { Sparkles, PlayCircle } from 'lucide-react'
 import PageHero from '../components/PageHero.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import DocumentCard from '../components/DocumentCard.jsx'
 import { img } from '../data/assets'
-import { teacherDocs, projectDocs } from '../data/resources'
+import { teacherDocs, projectDocs, presentation } from '../data/resources'
 
 export default function ForTeachers() {
   const { t } = useTranslation()
@@ -29,7 +29,35 @@ export default function ForTeachers() {
         </div>
       </section>
 
-      <section className="container-page pb-12">
+      {/* Project presentation (moved from the homepage) */}
+      <section className="container-page pb-4">
+        <SectionHeading
+          eyebrow={<span className="inline-flex items-center gap-1.5"><PlayCircle className="h-4 w-4" />{t('teachers.presentationEyebrow')}</span>}
+          title={t('teachers.presentationTitle')}
+          subtitle={t('teachers.presentationDesc')}
+          center
+          className="mb-10"
+        />
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-4xl bg-slate-900 shadow-soft ring-1 ring-black/5">
+          <div className="aspect-video">
+            <iframe
+              src={presentation.embed}
+              title={t('teachers.presentationTitle')}
+              className="h-full w-full"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+        </div>
+        <div className="mt-6 text-center">
+          <a href={presentation.present} target="_blank" rel="noreferrer" className="btn-outline">
+            <PlayCircle className="h-5 w-5" aria-hidden="true" />
+            {t('common.viewPresentation')}
+          </a>
+        </div>
+      </section>
+
+      <section className="container-page py-12">
         <SectionHeading
           eyebrow={t('nav.teachers')}
           title={t('teachers.resourcesTitle')}

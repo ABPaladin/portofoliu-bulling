@@ -1,9 +1,11 @@
 import { useTranslation } from 'react-i18next'
-import { Video, Gamepad2, Sparkles, Heart, ExternalLink } from 'lucide-react'
+import { Video, Gamepad2, Heart, ExternalLink, Sparkles } from 'lucide-react'
 import PageHero from '../components/PageHero.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
+import DocumentCard from '../components/DocumentCard.jsx'
 import { img } from '../data/assets'
 import { studentVideos, studentGames, ytEmbed } from '../data/media'
+import { studentDocs } from '../data/resources'
 
 function VideoCard({ id, title, author }) {
   return (
@@ -108,17 +110,17 @@ export default function ForStudents() {
         imageAlt={t('students.gallery.hero')}
       />
 
-      {/* Letter */}
+      {/* Letter to students (written out, like the parents' page) */}
       <section className="container-page py-16 sm:py-20">
-        <SectionHeading title={t('students.letterTitle')} center className="mb-10" />
-        <div className="relative mx-auto max-w-3xl overflow-hidden rounded-4xl bg-gradient-to-br from-sun-400/10 via-white to-brand-50 p-8 shadow-card ring-1 ring-brand-100 sm:p-12">
+        <SectionHeading title={t('students.letterSectionTitle')} center className="mb-10" />
+        <article className="prose-content relative mx-auto max-w-3xl overflow-hidden rounded-4xl bg-gradient-to-br from-sun-400/10 via-white to-brand-50 p-8 shadow-card ring-1 ring-brand-100 sm:p-12">
           <Sparkles className="absolute right-6 top-6 h-8 w-8 text-sun-400/60" aria-hidden="true" />
           <p className="font-display text-2xl font-bold text-brand-800">
             {t('students.letter.greeting')}
           </p>
-          <p className="mt-5 leading-relaxed text-slate-700">{t('students.letter.p1')}</p>
-          <p className="mt-4 leading-relaxed text-slate-700">{t('students.letter.p2')}</p>
-        </div>
+          <p className="mt-5">{t('students.letter.p1')}</p>
+          <p>{t('students.letter.p2')}</p>
+        </article>
       </section>
 
       {/* Videos */}
@@ -163,6 +165,21 @@ export default function ForStudents() {
             note={t('students.gameNote')}
           />
         ))}
+      </section>
+
+      {/* Presentation for students */}
+      <section className="container-page py-8">
+        <SectionHeading title={t('students.presentationTitle')} center className="mb-10" />
+        <div className="mx-auto max-w-2xl">
+          {studentDocs.map((doc) => (
+            <DocumentCard
+              key={doc.key}
+              doc={doc}
+              titleKey={`students.docs.${doc.key}.title`}
+              descKey={`students.docs.${doc.key}.desc`}
+            />
+          ))}
+        </div>
       </section>
 
       {/* Gallery */}

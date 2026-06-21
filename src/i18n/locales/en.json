@@ -43,6 +43,11 @@
     "heroCtaSecondary": "Watch the presentation",
     "presentationTitle": "Bullying, explained for everyone",
     "presentationDesc": "A short presentation that introduces the project and its core message — for children, and for everyone who cares about them.",
+    "motherEyebrow": "Why this matters to me",
+    "motherHeading": "With a specialist's mind and a mother's heart",
+    "motherP1": "I am the mother of three children, and the thought that one of them could become a victim of humiliation, exclusion or emotional aggression drives me to understand this phenomenon and help prevent it. Every child deserves to feel safe, accepted and respected in the environment where they learn and grow. I study this subject with the soul of a specialist, but also with the heart of a mother. I wish for no child to ever feel alone, unheard or unprotected.",
+    "motherP2": "Together we can turn school and community into a space where every child has the courage to be themselves.",
+    "motherImageAlt": "Buga Victoria's three children in a spring, flower-filled setting",
     "audienceTitle": "Where do you fit in?",
     "audienceSubtitle": "Choose your space. Every resource is tailored to you.",
     "audiences": {
@@ -147,6 +152,15 @@
     "heroTitle": "You are stronger than you think. Welcome!",
     "heroSubtitle": "This is your safe space — explore it with confidence.",
     "letterTitle": "Read my letter to you",
+    "letterSectionTitle": "Letter to students",
+    "letterImageAlt": "Illustrated letter to students: “Welcome to your safe space! Hi! I'm so glad you made it here…”",
+    "presentationTitle": "Presentation for students",
+    "docs": {
+      "doc_techniques": {
+        "title": "Anti-Bullying Techniques for Students",
+        "desc": "A presentation with practical techniques to protect yourself and react calmly in bullying situations."
+      }
+    },
     "letter": {
       "greeting": "Welcome to your safe space!",
       "p1": "Hi! I'm so glad you made it here. This corner of the internet was created especially for you. I know that sometimes school or your group of friends can become complicated places, and bullying can make you feel alone or misunderstood. I want you to know that here, your voice matters.",
@@ -233,6 +247,9 @@
     "welcome": "Welcome to the page created for you, dear teacher!",
     "intro": "With great respect, Buga Victoria, psychologist.",
     "highlight": "Create a truly special lesson with your students!",
+    "presentationEyebrow": "Presentation",
+    "presentationTitle": "Bullying, explained for everyone",
+    "presentationDesc": "A presentation that introduces the project and its message — for teachers and everyone who cares about children.",
     "resourcesTitle": "Materials & guides to download",
     "docs": {
       "doc_respect": {
