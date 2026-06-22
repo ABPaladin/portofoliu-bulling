@@ -68,13 +68,16 @@ export default function Quiz() {
       <ol className="space-y-6">
         {questions.map((q, qi) => (
           <li key={qi}>
-            <fieldset className="card p-6 sm:p-7">
-              <legend className="mb-4 flex gap-3 font-display text-lg font-bold text-brand-900">
+            <div className="card p-6 sm:p-7" role="group" aria-labelledby={`q-${qi}-label`}>
+              <p
+                id={`q-${qi}-label`}
+                className="mb-4 flex items-start gap-3 font-display text-lg font-bold text-brand-900"
+              >
                 <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-brand-600 text-sm font-bold text-white">
                   {qi + 1}
                 </span>
                 <span>{q.q}</span>
-              </legend>
+              </p>
 
               <div className="space-y-2.5">
                 {q.options.map((opt, oi) => {
@@ -112,7 +115,7 @@ export default function Quiz() {
                   </span>
                 </p>
               )}
-            </fieldset>
+            </div>
           </li>
         ))}
       </ol>
